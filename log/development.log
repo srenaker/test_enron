@@ -1,0 +1,4 @@
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (7.6ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0.4ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)

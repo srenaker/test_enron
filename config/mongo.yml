@@ -1,0 +1,20 @@
+defaults: &defaults
+  host: 127.0.0.1
+  port: 27017
+
+development:
+  <<: *defaults
+  database: test_enron
+
+test:
+  <<: *defaults
+  database: test_enron_test
+
+# set these environment variables on your prod server
+production:
+  host: 
+  port: 
+  database: 
+  username: 
+  password: 
+  
