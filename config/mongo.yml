@@ -4,11 +4,11 @@ defaults: &defaults
 
 development:
   <<: *defaults
-  database: test_enron
+  database: enron
 
 test:
   <<: *defaults
-  database: test_enron_test
+  database: enron_test
 
 # set these environment variables on your prod server
 production:

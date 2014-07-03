@@ -1,2 +1,21 @@
 h1 Enron email sampler
 
+p 
+| This app allows users to view and, in a limited way, search a subset of the Enron email collection which first appeared online in 2003 (details can be found 
+= link_to "here", "http://www.ferc.gov/industries/electric/indus-act/wec/enron/info-release.asp"
+nbsp
+| ).  This app is strictly for my own personal practice and edification.  No warranties are given, implied, etc.
+
+p
+
+| This subset contains 120,477 of the original messages in the date range Feb. 1, 2001 through Sept. 1, 2001, with no attachments.
+
+p
+
+h3 Search for messages by From: field
+
+= form_tag search_from_field_path, method: 'post' do
+	| From: 
+	= text_field_tag :from_address, "jeff.skilling@enron.com"
+	p
+	= submit_tag "Search"

@@ -2,3 +2,2275 @@ MONGODB [DEBUG] Logging level is currently :debug which could negatively impact 
 MONGODB (7.6ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
 MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
 MONGODB (0.4ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0.8ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-03 11:43:55 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (16.7ms)
+Completed 200 OK in 1026ms (Views: 1003.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 11:43:57 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 11:43:57 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 11:43:57 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 11:43:57 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 11:43:57 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 11:43:57 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 11:43:57 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-03 11:44:23 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (3.1ms)
+Completed 200 OK in 8ms (Views: 7.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 11:44:23 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 11:44:23 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 11:44:23 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 11:44:23 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 11:44:23 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 11:44:23 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 11:44:23 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-03 11:44:57 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (2.6ms)
+Completed 200 OK in 7ms (Views: 6.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 11:44:57 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 11:44:57 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 11:44:57 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 11:44:57 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 11:44:57 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 11:44:57 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 11:44:58 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-03 11:45:46 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 11:45:46 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 11:45:46 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 11:45:46 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 11:45:46 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 11:45:46 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 11:45:46 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 11:45:46 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-03 11:46:09 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (2.8ms)
+Completed 200 OK in 8ms (Views: 6.9ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 11:46:09 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 11:46:09 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 11:46:09 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 11:46:09 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 11:46:09 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 11:46:09 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 11:46:09 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-03 11:46:11 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.1ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 11:46:11 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 11:46:11 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 11:46:11 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 11:46:11 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 11:46:11 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 11:46:11 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 11:46:11 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-03 11:46:29 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (2.6ms)
+Completed 200 OK in 7ms (Views: 6.5ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 11:46:29 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 11:46:29 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 11:46:29 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 11:46:29 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 11:46:29 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 11:46:29 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 11:46:29 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-03 11:46:43 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.7ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 11:46:43 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 11:46:43 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 11:46:43 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 11:46:43 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 11:46:43 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 11:46:43 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 11:46:43 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-03 11:49:46 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (2.9ms)
+Completed 200 OK in 10ms (Views: 9.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 11:49:46 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 11:49:46 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 11:49:46 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 11:49:46 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 11:49:46 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 11:49:46 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 11:49:46 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-03 11:58:09 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (3.0ms)
+Completed 200 OK in 8ms (Views: 7.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 11:58:09 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 11:58:09 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 11:58:09 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 11:58:09 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 11:58:09 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 11:58:09 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 11:58:09 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-03 11:58:16 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (2.9ms)
+Completed 200 OK in 9ms (Views: 8.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 11:58:16 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 11:58:16 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 11:58:16 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 11:58:16 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 11:58:16 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 11:58:16 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 11:58:16 -0700
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0.5ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0.4ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-03 13:24:40 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (7.7ms)
+Completed 200 OK in 627ms (Views: 615.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 13:24:41 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 13:24:41 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 13:24:41 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 13:24:41 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 13:24:41 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 13:24:41 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 13:24:41 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 13:24:41 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 13:24:41 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-03 13:25:30 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (7.8ms)
+Completed 200 OK in 16ms (Views: 15.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 13:25:30 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 13:25:30 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 13:25:30 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 13:25:30 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 13:25:30 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 13:25:30 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 13:25:30 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 13:25:30 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 13:25:30 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-03 13:31:40 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.7ms)
+Completed 200 OK in 7ms (Views: 6.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 13:31:40 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 13:31:40 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 13:31:40 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 13:31:40 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 13:31:40 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 13:31:40 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 13:31:40 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 13:31:40 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 13:31:40 -0700
+
+
+Started POST "/search/from_field?method=post" for 127.0.0.1 at 2014-07-03 13:31:44 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search", "method"=>"post"}
+Completed 500 Internal Server Error in 285ms
+
+LoadError (Unable to autoload constant Message, expected /Users/srenaker/dev/enron_test/app/models/message.rb to define it):
+  app/controllers/search_controller.rb:5:in `from_field'
+
+
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started POST "/search/from_field?method=post" for 127.0.0.1 at 2014-07-03 13:32:22 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search", "method"=>"post"}
+Completed 500 Internal Server Error in 40ms
+
+NameError (undefined local variable or method `from_address' for #<SearchController:0x007f8a64bc5098>):
+  app/controllers/search_controller.rb:5:in `from_field'
+
+
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.9ms)
+
+
+Started POST "/search/from_field?method=post" for 127.0.0.1 at 2014-07-03 13:32:42 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search", "method"=>"post"}
+Completed 500 Internal Server Error in 9ms
+
+NoMethodError (undefined method `to_sym' for nil:NilClass):
+  app/controllers/search_controller.rb:5:in `from_field'
+
+
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.9ms)
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.6ms)
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.2ms)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0.5ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+MONGODB (5.8ms) test_enron['messages'].find({}).limit(2)
+MONGODB (0.7ms) test_enron['messages'].find({}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0.5ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+MONGODB (1.2ms) enron['messages'].find({}).limit(-1)
+MONGODB (3.6ms) enron['messages'].find({:_id=>BSON::ObjectId('4f16fc97d1e2d32371003f02')}).limit(-1)
+MONGODB (1.3ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(-1)
+
+
+Started POST "/search/from_field?method=post" for 127.0.0.1 at 2014-07-03 13:42:43 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search", "method"=>"post"}
+  Rendered search/from_field.html.slim within layouts/application (5.0ms)
+Completed 200 OK in 17ms (Views: 12.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 13:42:43 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 13:42:43 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 13:42:43 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 13:42:43 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 13:42:43 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 13:42:43 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 13:42:43 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 13:42:43 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 13:42:43 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-03 13:42:58 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.7ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 13:42:58 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 13:42:58 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 13:42:58 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 13:42:58 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 13:42:58 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 13:42:58 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 13:42:58 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 13:42:58 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 13:42:58 -0700
+
+
+Started POST "/search/from_field?method=post" for 127.0.0.1 at 2014-07-03 13:43:01 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search", "method"=>"post"}
+  Rendered search/from_field.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.1ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 13:43:01 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 13:43:01 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 13:43:01 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 13:43:01 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 13:43:01 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 13:43:01 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 13:43:01 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 13:43:01 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 13:43:01 -0700
+
+
+Started POST "/search/from_field?method=post" for 127.0.0.1 at 2014-07-03 13:44:00 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search", "method"=>"post"}
+  Rendered search/from_field.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 8.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 13:44:00 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 13:44:00 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 13:44:00 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 13:44:00 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 13:44:00 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 13:44:00 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 13:44:00 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 13:44:00 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 13:44:00 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-03 13:44:07 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (7.1ms)
+Completed 200 OK in 17ms (Views: 16.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 13:44:07 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 13:44:07 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 13:44:07 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 13:44:07 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 13:44:07 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 13:44:07 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 13:44:07 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 13:44:07 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 13:44:07 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 13:44:09 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+  Rendered search/from_field.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.3ms)
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 13:44:09 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 13:44:09 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 13:44:09 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 13:44:09 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 13:44:09 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 13:44:09 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 13:44:09 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 13:44:09 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 13:44:09 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 13:47:48 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+  Rendered search/from_field.html.slim within layouts/application (4.1ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (Unknown line indicator
+  /Users/srenaker/dev/enron_test/app/views/search/from_field.html.slim, Line 4, Column 1
+    :
+    ^
+):
+  slim (2.0.2) lib/slim/parser.rb:478:in `syntax_error!'
+  slim (2.0.2) lib/slim/parser.rb:230:in `parse_line_indicators'
+  slim (2.0.2) lib/slim/parser.rb:176:in `parse_line'
+  slim (2.0.2) lib/slim/parser.rb:77:in `call'
+  temple (0.6.7) lib/temple/engine.rb:50:in `block in call'
+  temple (0.6.7) lib/temple/engine.rb:50:in `each'
+  temple (0.6.7) lib/temple/engine.rb:50:in `inject'
+  temple (0.6.7) lib/temple/engine.rb:50:in `call'
+  temple (0.6.7) lib/temple/mixins/template.rb:10:in `compile'
+  temple (0.6.7) lib/temple/templates/rails.rb:34:in `call'
+  actionpack (4.0.4) lib/action_view/template.rb:272:in `compile'
+  actionpack (4.0.4) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.4) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.4) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.4) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.4) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.4) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.4) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.4) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.4) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.4) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.4) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.4) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.4) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.4) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.4) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.4) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.4) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.4) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.4) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.4) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.4) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.4) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.4) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.4) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.4) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.4) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.4) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/srenaker/.rvm/rubies/ruby-2.0.0-p195/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.4) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.4) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.4) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  actionpack (4.0.4) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.4) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.4) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.4) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.4) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.4) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.4) lib/active_support/callbacks.rb:403:in `_run__3298784143260065508__process_action__callbacks'
+  activesupport (4.0.4) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.4) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.4) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.4) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.4) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.4) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.4) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.4) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  actionpack (4.0.4) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.4) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.4) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.4) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.4) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.4) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.4) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.4) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.4) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.4) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.4) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.4) lib/action_dispatch/routing/route_set.rb:674:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.4) lib/active_support/callbacks.rb:373:in `_run__2638576519329220172__call__callbacks'
+  activesupport (4.0.4) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/srenaker/.rvm/rubies/ruby-2.0.0-p195/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/srenaker/.rvm/rubies/ruby-2.0.0-p195/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/srenaker/.rvm/rubies/ruby-2.0.0-p195/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.9ms)
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 13:48:28 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+  Rendered search/from_field.html.slim within layouts/application (2.9ms)
+Completed 200 OK in 12ms (Views: 8.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 13:48:28 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 13:48:28 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 13:48:28 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 13:48:28 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 13:48:28 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 13:48:28 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 13:48:28 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 13:48:28 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 13:48:28 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 13:48:48 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+  Rendered search/from_field.html.slim within layouts/application (2.8ms)
+Completed 200 OK in 9ms (Views: 8.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 13:48:48 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 13:48:48 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 13:48:48 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 13:48:48 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 13:48:48 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 13:48:48 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 13:48:48 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 13:48:48 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 13:48:48 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 13:49:39 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+  Rendered search/from_field.html.slim within layouts/application (2.7ms)
+Completed 200 OK in 10ms (Views: 8.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 13:49:39 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 13:49:39 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 13:49:39 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 13:49:39 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 13:49:39 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 13:49:39 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 13:49:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 13:49:39 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 13:49:39 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 13:51:12 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+  Rendered search/from_field.html.slim within layouts/application (3.8ms)
+Completed 200 OK in 11ms (Views: 9.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 13:51:12 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 13:51:12 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 13:51:12 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 13:51:12 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 13:51:12 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 13:51:12 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 13:51:12 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 13:51:12 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 13:51:12 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 13:55:22 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB (3.0ms) test_enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+  Rendered search/from_field.html.slim within layouts/application (7.6ms)
+Completed 200 OK in 18ms (Views: 12.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 13:55:22 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 13:55:22 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 13:55:22 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 13:55:22 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 13:55:22 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 13:55:22 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 13:55:22 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 13:55:22 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 13:55:22 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 13:55:47 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB (0.5ms) test_enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"})
+Completed 500 Internal Server Error in 7ms
+
+NoMethodError (undefined method `limit' for []:Array):
+  app/controllers/search_controller.rb:5:in `from_field'
+
+
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.4ms)
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 13:56:08 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB (0.5ms) test_enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"})
+  Rendered search/from_field.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 44ms (Views: 5.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 13:56:08 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 13:56:08 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 13:56:08 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 13:56:08 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 13:56:08 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 13:56:08 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 13:56:08 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 13:56:08 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 13:56:08 -0700
+MONGODB (32.6ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"})
+MONGODB (10.4ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"})
+MONGODB (12.4ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"})
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 13:59:04 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB (0.7ms) test_enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"})
+  Rendered search/from_field.html.slim within layouts/application (5.6ms)
+Completed 200 OK in 14ms (Views: 11.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 13:59:04 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 13:59:04 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 13:59:04 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 13:59:04 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 13:59:04 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 13:59:04 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 13:59:04 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 13:59:04 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 13:59:04 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 13:59:28 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB (0.5ms) test_enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"})
+  Rendered search/from_field.html.slim within layouts/application (3.3ms)
+Completed 200 OK in 11ms (Views: 9.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 13:59:28 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 13:59:28 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 13:59:28 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 13:59:28 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 13:59:28 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 13:59:28 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 13:59:28 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 13:59:28 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 13:59:28 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 13:59:55 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB (0.6ms) test_enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"})
+  Rendered search/from_field.html.slim within layouts/application (4.2ms)
+Completed 200 OK in 11ms (Views: 9.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 13:59:55 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 13:59:55 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 13:59:55 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 13:59:55 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 13:59:55 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 13:59:55 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 13:59:55 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 13:59:55 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 13:59:55 -0700
+MONGODB (6.9ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"})
+MONGODB [DEBUG] Cursor#close 305308272420
+MONGODB (1.6ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 14:02:42 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB (0.7ms) test_enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+  Rendered search/from_field.html.slim within layouts/application (10.3ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (undefined local variable or method `m' for #<#<Class:0x007f8a670a9e68>:0x007f8a670a9030>):
+     6: # = @messages.each do |m|
+     7: # 	p
+     8: # 		.message
+     9: # 			| #{m}
+    10: 	
+  app/views/search/from_field.html.slim:9:in `_app_views_search_from_field_html_slim__4001876944157456035_70116186733980'
+
+
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.9ms)
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 14:02:56 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB (0.4ms) test_enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+  Rendered search/from_field.html.slim within layouts/application (3.9ms)
+Completed 200 OK in 11ms (Views: 9.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 14:02:56 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 14:02:56 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 14:02:56 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 14:02:56 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 14:02:56 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 14:02:56 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 14:02:56 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 14:02:56 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 14:02:56 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 14:03:39 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB (0.5ms) test_enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+  Rendered search/from_field.html.slim within layouts/application (2.5ms)
+Completed 200 OK in 9ms (Views: 7.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 14:03:39 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 14:03:39 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 14:03:39 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 14:03:39 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 14:03:39 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 14:03:39 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 14:03:39 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 14:03:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 14:03:39 -0700
+MONGODB (0.8ms) enron['messages'].find({:"headers.From"=>nil}).limit(3)
+MONGODB [DEBUG] Cursor#close 306655662239
+MONGODB (1.4ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 14:26:13 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB (0.5ms) test_enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+  Rendered search/from_field.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 6.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 14:26:13 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 14:26:13 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 14:26:13 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 14:26:13 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 14:26:13 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 14:26:13 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 14:26:13 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 14:26:13 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 14:26:13 -0700
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0.5ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 14:26:41 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB [DEBUG] Cursor#close 305725337024
+MONGODB (2.3ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+  Rendered search/from_field.html.slim within layouts/application (17.5ms)
+Completed 200 OK in 295ms (Views: 125.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 14:26:42 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 14:26:42 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 14:26:42 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 14:26:42 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 14:26:42 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 14:26:42 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 14:26:42 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 14:26:42 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 14:26:42 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 14:35:05 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB [DEBUG] Cursor#close 305212246751
+MONGODB (1.4ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+  Rendered search/from_field.html.slim within layouts/application (5.5ms)
+Completed 200 OK in 23ms (Views: 12.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 14:35:05 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 14:35:05 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 14:35:05 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 14:35:05 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 14:35:05 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 14:35:05 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 14:35:05 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 14:35:05 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 14:35:05 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 14:37:25 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB [DEBUG] Cursor#close 306312322142
+MONGODB (1.1ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+  Rendered search/from_field.html.slim within layouts/application (5.2ms)
+Completed 200 OK in 14ms (Views: 11.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 14:37:25 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 14:37:25 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 14:37:25 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 14:37:25 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 14:37:25 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 14:37:25 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 14:37:25 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 14:37:25 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 14:37:25 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 14:41:09 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB [DEBUG] Cursor#close 305354465309
+MONGODB (1.0ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+  Rendered search/from_field.html.slim within layouts/application (2.9ms)
+Completed 200 OK in 16ms (Views: 8.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 14:41:09 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 14:41:09 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 14:41:09 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 14:41:09 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 14:41:09 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 14:41:09 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 14:41:09 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 14:41:09 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 14:41:09 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 14:43:11 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB [DEBUG] Cursor#close 305032775329
+MONGODB (1.5ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+  Rendered search/from_field.html.slim within layouts/application (17.3ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (undefined local variable or method `body' for #<#<Class:0x007fe952d95218>:0x007fe955ace338>):
+     6: 	body.sub!(/\n/, '<br>')
+     7: 	p
+     8: 		.message
+     9: 			| #{body}
+    10: 	
+    11: 	
+  app/views/search/from_field.html.slim:9:in `block in _app_views_search_from_field_html_slim__2327783900077759001_70320070748280'
+  app/views/search/from_field.html.slim:4:in `each'
+  app/views/search/from_field.html.slim:4:in `_app_views_search_from_field_html_slim__2327783900077759001_70320070748280'
+
+
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.9ms)
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 14:44:00 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB [DEBUG] Cursor#close 306561889127
+MONGODB (1.2ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+  Rendered search/from_field.html.slim within layouts/application (44.5ms)
+Completed 500 Internal Server Error in 49ms
+
+ActionView::Template::Error (undefined local variable or method `body' for #<#<Class:0x007fe952d95218>:0x007fe953147e38>):
+    3: 
+    4: - @messages.each do |m|
+    5: 	body = m.body
+    6: 	this_body = body.sub(/\n/, '<br>')
+    7: 	p
+    8: 		.message
+    9: 			| #{this_body}
+  app/views/search/from_field.html.slim:6:in `block in _app_views_search_from_field_html_slim__2327783900077759001_70320048977320'
+  app/views/search/from_field.html.slim:4:in `each'
+  app/views/search/from_field.html.slim:4:in `_app_views_search_from_field_html_slim__2327783900077759001_70320048977320'
+
+
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.9ms)
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 14:45:18 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB [DEBUG] Cursor#close 305639690949
+MONGODB (1.5ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+  Rendered search/from_field.html.slim within layouts/application (19.5ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (undefined local variable or method `my_body' for #<#<Class:0x007fe952d95218>:0x007fe9559de6d0>):
+    3: 
+    4: - @messages.each do |m|
+    5: 	my_body = m.body
+    6: 	this_body = my_body.sub(/\n/, '<br>')
+    7: 	p
+    8: 		.message
+    9: 			| #{this_body}
+  app/views/search/from_field.html.slim:6:in `block in _app_views_search_from_field_html_slim__2327783900077759001_70320070256800'
+  app/views/search/from_field.html.slim:4:in `each'
+  app/views/search/from_field.html.slim:4:in `_app_views_search_from_field_html_slim__2327783900077759001_70320070256800'
+
+
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.8ms)
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 14:46:41 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB [DEBUG] Cursor#close 306725491809
+MONGODB (1.4ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+  Rendered search/from_field.html.slim within layouts/application (3.1ms)
+Completed 200 OK in 12ms (Views: 8.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 14:46:41 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 14:46:41 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 14:46:41 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 14:46:41 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 14:46:41 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 14:46:41 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 14:46:41 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 14:46:41 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 14:46:41 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 14:48:43 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB [DEBUG] Cursor#close 306668321862
+MONGODB (1.2ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+  Rendered search/from_field.html.slim within layouts/application (3.1ms)
+Completed 200 OK in 11ms (Views: 8.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 14:48:43 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 14:48:43 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 14:48:43 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 14:48:43 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 14:48:43 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 14:48:43 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 14:48:43 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 14:48:43 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 14:48:43 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 14:49:39 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB [DEBUG] Cursor#close 305474970609
+MONGODB (1.5ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+  Rendered search/from_field.html.slim within layouts/application (2.8ms)
+Completed 200 OK in 12ms (Views: 8.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 14:49:39 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 14:49:39 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 14:49:39 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 14:49:39 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 14:49:39 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 14:49:39 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 14:49:39 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 14:49:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 14:49:39 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 14:50:12 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB [DEBUG] Cursor#close 306734860153
+MONGODB (1.1ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+  Rendered search/from_field.html.slim within layouts/application (2.6ms)
+Completed 200 OK in 10ms (Views: 7.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 14:50:12 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 14:50:12 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 14:50:12 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 14:50:12 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 14:50:12 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 14:50:12 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 14:50:12 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 14:50:12 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 14:50:12 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 14:50:21 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB [DEBUG] Cursor#close 305416959710
+MONGODB (1.4ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+  Rendered search/from_field.html.slim within layouts/application (4.1ms)
+Completed 200 OK in 13ms (Views: 9.3ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 14:50:21 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 14:50:21 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 14:50:21 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 14:50:21 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 14:50:21 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 14:50:21 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 14:50:22 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 14:50:22 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 14:50:22 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 14:52:20 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB [DEBUG] Cursor#close 306498945052
+MONGODB (1.4ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+  Rendered search/from_field.html.slim within layouts/application (2.8ms)
+Completed 200 OK in 12ms (Views: 8.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 14:52:20 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 14:52:20 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 14:52:20 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 14:52:20 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 14:52:20 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 14:52:20 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 14:52:20 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 14:52:20 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 14:52:20 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 14:52:40 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB [DEBUG] Cursor#close 306782520798
+MONGODB (1.1ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+  Rendered search/from_field.html.slim within layouts/application (3.5ms)
+Completed 200 OK in 12ms (Views: 8.8ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 14:52:40 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 14:52:40 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 14:52:40 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 14:52:40 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 14:52:40 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 14:52:40 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 14:52:40 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 14:52:40 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 14:52:40 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 14:52:47 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB [DEBUG] Cursor#close 306767097437
+MONGODB (1.1ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+  Rendered search/from_field.html.slim within layouts/application (3.1ms)
+Completed 200 OK in 11ms (Views: 8.6ms)
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 14:52:47 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 14:52:47 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 14:52:47 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 14:52:47 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 14:52:47 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 14:52:47 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 14:52:47 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 14:52:47 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 14:52:47 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 14:53:46 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB [DEBUG] Cursor#close 306410133266
+MONGODB (1.4ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+  Rendered search/from_field.html.slim within layouts/application (4.9ms)
+Completed 200 OK in 15ms (Views: 11.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 14:53:46 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 14:53:46 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 14:53:47 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 14:53:47 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 14:53:47 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 14:53:47 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 14:53:47 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 14:53:47 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 14:53:47 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 14:54:16 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB [DEBUG] Cursor#close 305445961664
+MONGODB (1.3ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+  Rendered search/from_field.html.slim within layouts/application (2.7ms)
+Completed 200 OK in 12ms (Views: 8.0ms)
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 14:54:16 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 14:54:16 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 14:54:16 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 14:54:16 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 14:54:16 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 14:54:16 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 14:54:16 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 14:54:16 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 14:54:16 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 14:55:56 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB [DEBUG] Cursor#close 305988882068
+MONGODB (1.4ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+  Rendered search/from_field.html.slim within layouts/application (4.3ms)
+Completed 200 OK in 14ms (Views: 10.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 14:55:56 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 14:55:56 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 14:55:56 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 14:55:56 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 14:55:56 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 14:55:56 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 14:55:56 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 14:55:56 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 14:55:56 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 14:59:46 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB [DEBUG] Cursor#close 306520294276
+MONGODB (1.8ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+  Rendered search/from_field.html.slim within layouts/application (2.9ms)
+Completed 200 OK in 13ms (Views: 9.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 14:59:46 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 14:59:46 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 14:59:46 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 14:59:46 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 14:59:46 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 14:59:46 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 14:59:46 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 14:59:46 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 14:59:46 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 15:00:41 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB [DEBUG] Cursor#close 306187092048
+MONGODB (1.6ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+  Rendered search/from_field.html.slim within layouts/application (3.1ms)
+Completed 200 OK in 13ms (Views: 8.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 15:00:41 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 15:00:41 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 15:00:41 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 15:00:41 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 15:00:41 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 15:00:41 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 15:00:41 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 15:00:41 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 15:00:41 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 15:01:19 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB [DEBUG] Cursor#close 306348505002
+MONGODB (1.1ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+  Rendered search/from_field.html.slim within layouts/application (2.9ms)
+Completed 200 OK in 10ms (Views: 7.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 15:01:19 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 15:01:19 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 15:01:19 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 15:01:19 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 15:01:19 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 15:01:19 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 15:01:19 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 15:01:19 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 15:01:19 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 15:06:51 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB (0.8ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(-1)
+  Rendered search/from_field.html.slim within layouts/application (43.1ms)
+Completed 500 Internal Server Error in 53ms
+
+ActionView::Template::Error (undefined local variable or method `b' for #<#<Class:0x007fe9541935a8>:0x007fe9541928b0>):
+    1: h3 
+    2: 	| Messages from #{@from_address}
+    3: 
+    4: | #{b}	
+    5: 	
+  app/views/search/from_field.html.slim:4:in `_app_views_search_from_field_html_slim__2327783900077759001_70320057518940'
+
+
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/srenaker/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.2ms)
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 15:07:00 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB (0.8ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(-1)
+  Rendered search/from_field.html.slim within layouts/application (2.4ms)
+Completed 200 OK in 11ms (Views: 7.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 15:07:00 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 15:07:00 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 15:07:00 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 15:07:00 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 15:07:00 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 15:07:00 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 15:07:00 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 15:07:00 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 15:07:00 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 15:08:04 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB (0.6ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(-1)
+  Rendered search/from_field.html.slim within layouts/application (2.3ms)
+Completed 200 OK in 14ms (Views: 7.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 15:08:04 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 15:08:04 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 15:08:04 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 15:08:04 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 15:08:04 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 15:08:04 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 15:08:04 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 15:08:04 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 15:08:04 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 15:08:40 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB (0.9ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(-1)
+  Rendered search/from_field.html.slim within layouts/application (2.6ms)
+Completed 200 OK in 13ms (Views: 9.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 15:08:40 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 15:08:40 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 15:08:40 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 15:08:40 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 15:08:40 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 15:08:40 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 15:08:40 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 15:08:40 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 15:08:40 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 15:09:10 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB (0.7ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(-1)
+  Rendered search/from_field.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 5.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 15:09:10 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 15:09:10 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 15:09:10 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 15:09:10 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 15:09:10 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 15:09:10 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 15:09:10 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 15:09:10 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 15:09:10 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 15:09:47 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB (0.8ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(-1)
+  Rendered search/from_field.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 4.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 15:09:47 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 15:09:47 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 15:09:47 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 15:09:47 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 15:09:47 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 15:09:47 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 15:09:47 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 15:09:47 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 15:09:47 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 15:11:35 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB (0.7ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(-1)
+  Rendered search/from_field.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 4.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 15:11:35 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 15:11:35 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 15:11:35 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 15:11:35 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 15:11:35 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 15:11:35 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 15:11:35 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 15:11:35 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 15:11:35 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 15:13:04 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB (32.4ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(-1)
+  Rendered search/from_field.html.slim within layouts/application (2.8ms)
+Completed 200 OK in 49ms (Views: 8.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 15:13:04 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 15:13:04 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 15:13:04 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 15:13:04 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 15:13:04 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 15:13:04 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 15:13:04 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 15:13:04 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 15:13:04 -0700
+
+
+Started POST "/search/from_field" for 127.0.0.1 at 2014-07-03 15:14:35 -0700
+Processing by SearchController#from_field as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzWuCu7mdfpxu4OEf6Af8vOoW9fZGxvWV+d2xKAP5a0=", "from_address"=>"jeff.skilling@enron.com", "commit"=>"Search"}
+MONGODB [DEBUG] Cursor#close 306218040361
+MONGODB (1.0ms) enron['messages'].find({:"headers.From"=>"jeff.skilling@enron.com"}).limit(3)
+  Rendered search/from_field.html.slim within layouts/application (2.7ms)
+Completed 200 OK in 15ms (Views: 7.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-03 15:14:35 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-03 15:14:35 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-03 15:14:35 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-03 15:14:35 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-03 15:14:35 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-03 15:14:35 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-03 15:14:35 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-03 15:14:35 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-03 15:14:35 -0700
