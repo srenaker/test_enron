@@ -9,31 +9,32 @@ h3
 	
 - if @results.length == 0
 	| No messages found.
-	p
 	= link_to "Back", root_path
 - else
-	| Number of results: #{@results.length}
+	| Number of results: #{@num_results}
 
+p	
 
 = paginate @results
 
 - @results.each do |m|
-	- m.body.sub!(/\\n/, '<br>')
+	- body = m['body'].sub(/\\n/, '<br>')
 	p
 		pre
 			.message
 				b To: 
-				| #{m.headers['To']}
+				| #{m['headers']['To']}
 				br
 				b From: 
-				| #{m.headers['From']}
+				| #{m['headers']['From']}
 				br
 				b Date: 
-				| #{m.headers['Date']}
+				| #{m['headers']['Date']}
 				br
 				b Subject: 
-				| #{m.headers['Subject']}
+				| #{m['headers']['Subject']}
 				p
-				| #{m.body}
+				
+				| #{body}
 	hr
 	br

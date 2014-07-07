@@ -14,16 +14,18 @@ p
 
 h3 Search for messages by From: field
 
-= form_tag search_from_field_path, method: 'post' do
+= form_tag search_search_results_path, method: 'post' do
 	| From: 
 	= text_field_tag :from_address, "jeff.skilling@enron.com"
+	= hidden_field_tag :type, "from"
 	p
 	= submit_tag "Search"
 	
 h3 Search for keywords
 
-= form_tag search_keyword_search_path, method: 'post' do
+= form_tag search_search_results_path, method: 'post' do
 	| Search terms: 
 	= text_field_tag :keywords, "", maxlength: 25
+	= hidden_field_tag :type, "keywords"	
 	p
 	= submit_tag "Search"
