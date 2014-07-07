@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'mongo_mapper', '~> 0.13.0.beta2'
 gem 'bson_ext'
 gem 'slim'
-
+gem 'kaminari'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
 

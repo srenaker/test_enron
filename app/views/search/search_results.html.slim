@@ -1,0 +1,39 @@
+= link_to "New search", root_path
+
+h3 
+	- if @type == 'from'
+		| Messages from #{@from_address}
+	- elsif @type == 'keywords'
+		| Messages with keywords #{@keywords}
+	
+	
+- if @results.length == 0
+	| No messages found.
+	p
+	= link_to "Back", root_path
+- else
+	| Number of results: #{@results.length}
+
+
+= paginate @results
+
+- @results.each do |m|
+	- m.body.sub!(/\\n/, '<br>')
+	p
+		pre
+			.message
+				b To: 
+				| #{m.headers['To']}
+				br
+				b From: 
+				| #{m.headers['From']}
+				br
+				b Date: 
+				| #{m.headers['Date']}
+				br
+				b Subject: 
+				| #{m.headers['Subject']}
+				p
+				| #{m.body}
+	hr
+	br
