@@ -1,8 +1,0 @@
-h3 
-	| Messages from #{@from_address}
-
-- @messages.each do |m|
-	- m.body.sub!(/\\n/, '<br>')
-	p
-		pre
-			| #{m.body}
