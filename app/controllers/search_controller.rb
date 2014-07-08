@@ -6,37 +6,29 @@ class SearchController < ApplicationController
     @to_address = params[:to_address]      
     @keywords = params[:keywords]
     
-    qs = []
+    q = {}
     
-    # assemble query strings
-    unless @from_address.nil?
-      from_qs = "'headers.From' => #{@from_address}"
-      qs << from_qs
+    # assemble query hash
+    unless @from_address.blank?
+      q['headers.From'] = @from_address
     end
         
-    unless @to_address.nil?
-      to_qs = "'headers.To' => #{@to_address}"
-      qs << to_qs
+    unless @to_address.blank?
+      q['headers.To'] = [@to_address]
     end
     
-    unless @keywords.nil?
-      keywords_qs = "'$text' => {'$search' => #{@keywords}}"
-      qs << keywords_qs 
+    unless @keywords.blank?
+      q['$text'] = {'$search' => @keywords}
     end
-    
-    query_string = qs.join(', ')
-    
-    puts "\n\nquery string is #{query_string}\n\n"
-    
-    messages = MongoMapper.database['messages'].find({query_string}).limit(100).to_a
-      
-    
+        
+    messages = Message.where(q).limit(100).to_a
+       
     @num_results = messages.length
       
+    # rudimentary deduplication of message bodies  
     message_bodies = []
     messages.each do |m|
       if message_bodies.include?(m['body'])
-        puts "found a dupe"
         messages.delete(m)
       else
         message_bodies << m['body'] 
