@@ -12,6 +12,7 @@ h3
 	= link_to "Back", root_path
 - else
 	| Number of results: #{@num_results}
+	| #{@deduped.html_safe}
 
 p	
 

@@ -5,7 +5,7 @@ class SearchController < ApplicationController
     
     if @type == 'from'
       @from_address = params[:from_address]
-      messages = MongoMapper.database['messages'].find({'headers.From' => @from_address}).to_a
+      messages = MongoMapper.database['messages'].find({'headers.From' => @from_address}).limit(100).to_a
       
     elsif @type == 'keywords'
       @keywords = params[:keywords]
@@ -14,11 +14,21 @@ class SearchController < ApplicationController
     end
     
     @num_results = messages.length
-    
+  
+    message_bodies = []
     messages.each do |m|
-      unless 
+      if message_bodies.include?(m['body'])
+        puts "found a dupe"
+        messages.delete(m)
+      else
+        message_bodies << m['body'] 
+      end
+    end 
+  
+    @num_results > messages.length ? @deduped = "<p>Some duplicate messages are not displayed." : @deduped = "" 
     
     @results = Kaminari.paginate_array(messages).page(params[:page]).per(10)
+    
   end
 
 end
