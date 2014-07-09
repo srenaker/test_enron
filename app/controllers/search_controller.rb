@@ -4,6 +4,7 @@ class SearchController < ApplicationController
     
     @from_address = params[:from_address]
     @to_address = params[:to_address]      
+    @date = params[:date]
     @keywords = params[:keywords]
     
     q = {}
@@ -20,6 +21,7 @@ class SearchController < ApplicationController
     unless @keywords.blank?
       q['$text'] = {'$search' => @keywords}
     end
+   
         
     messages = Message.where(q).limit(100).to_a
        
