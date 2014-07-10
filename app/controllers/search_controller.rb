@@ -1,5 +1,16 @@
 class SearchController < ApplicationController
   
+  def from_field
+    q = params[:term]
+    result = FromAddress.where(:_id => /^#{q}/).limit(20)
+    arr = {}
+    result.each_with_index do |j, i|
+      arr[i] = j._id
+    end
+    render :json => arr
+  end
+  
+  
   def search_results
     
     @from_address = params[:from_address]
