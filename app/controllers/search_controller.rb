@@ -23,19 +23,19 @@ class SearchController < ApplicationController
     end
    
         
-    messages = Message.where(q).limit(100).to_a
+    messages = Message.where(q).to_a
        
     @num_results = messages.length
       
     # rudimentary deduplication of message bodies  
-    message_bodies = []
-    messages.each do |m|
-      if message_bodies.include?(m['body'])
-        messages.delete(m)
-      else
-        message_bodies << m['body'] 
-      end
-    end 
+    # message_bodies = []
+    #     messages.each do |m|
+    #       if message_bodies.include?(m['body'])
+    #         messages.delete(m)
+    #       else
+    #         message_bodies << m['body'] 
+    #       end
+    #     end 
       
     @num_results > messages.length ? @deduped = "<p>Some duplicate messages are not displayed." : @deduped = "" 
     

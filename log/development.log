@@ -8643,3 +8643,1109 @@ Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-09 10:45:22 -07
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 10:45:22 -0700
+
+
+Started POST "/search/search_results" for 127.0.0.1 at 2014-07-09 11:20:57 -0700
+Processing by SearchController#search_results as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XJl++EWEePiWR9yjR372/URWMHE8LIz77ZO1n/PoVgQ=", "from_address"=>"kenneth.lay@enron.com", "to_address"=>"", "date"=>"", "keywords"=>"", "commit"=>"Search"}
+MONGODB (121.7ms) enron['messages'].find({:"headers.From"=>"kenneth.lay@enron.com"}).limit(100)
+  Rendered search/search_results.html.slim within layouts/application (30.2ms)
+Completed 200 OK in 178ms (Views: 39.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:20:57 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-09 11:20:57 -0700
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2014-07-09 11:20:57 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 11:20:57 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-09 11:20:57 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:20:57 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:20:57 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-09 11:20:57 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-09 11:20:57 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:20:57 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-09 11:21:38 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.8ms)
+Completed 200 OK in 7ms (Views: 5.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:21:38 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-09 11:21:38 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-09 11:21:38 -0700
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2014-07-09 11:21:38 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 11:21:38 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-09 11:21:38 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:21:38 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:21:38 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-09 11:21:38 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:21:38 -0700
+
+
+Started POST "/search/search_results" for 127.0.0.1 at 2014-07-09 11:21:42 -0700
+Processing by SearchController#search_results as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XJl++EWEePiWR9yjR372/URWMHE8LIz77ZO1n/PoVgQ=", "from_address"=>"", "to_address"=>"rickbe@microsoft.com", "date"=>"", "keywords"=>"", "commit"=>"Search"}
+MONGODB (1.0ms) enron['messages'].find({:"headers.To"=>{:$in=>["rickbe@microsoft.com"]}}).limit(100)
+  Rendered search/search_results.html.slim within layouts/application (3.9ms)
+Completed 200 OK in 14ms (Views: 11.5ms)
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-09 11:21:42 -0700
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2014-07-09 11:21:42 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:21:42 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:21:42 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:21:42 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-09 11:21:42 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 11:21:42 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-09 11:21:42 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-09 11:21:42 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:21:42 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-09 11:22:31 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (1.3ms)
+Completed 200 OK in 7ms (Views: 6.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:22:31 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-09 11:22:31 -0700
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2014-07-09 11:22:31 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-09 11:22:31 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:22:31 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 11:22:31 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:22:31 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-09 11:22:31 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-09 11:22:31 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:22:31 -0700
+
+
+Started POST "/search/search_results" for 127.0.0.1 at 2014-07-09 11:22:39 -0700
+Processing by SearchController#search_results as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XJl++EWEePiWR9yjR372/URWMHE8LIz77ZO1n/PoVgQ=", "from_address"=>"", "to_address"=>"", "date"=>"", "keywords"=>"Broadband Internet Access", "commit"=>"Search"}
+MONGODB [DEBUG] Cursor#close 305426276681
+MONGODB (84.7ms) enron['messages'].find({:$text=>{"$search"=>"Broadband Internet Access"}}).limit(100)
+  Rendered search/search_results.html.slim within layouts/application (20.2ms)
+Completed 200 OK in 124ms (Views: 28.9ms)
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2014-07-09 11:22:39 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:22:39 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-09 11:22:39 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:22:39 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:22:39 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-09 11:22:39 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-09 11:22:39 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 11:22:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:22:39 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-09 11:22:39 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-09 11:24:16 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.9ms)
+Completed 200 OK in 7ms (Views: 6.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:24:16 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-09 11:24:16 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-09 11:24:16 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:24:16 -0700
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2014-07-09 11:24:16 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 11:24:16 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:24:16 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-09 11:24:16 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-09 11:24:16 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:24:16 -0700
+
+
+Started POST "/search/search_results" for 127.0.0.1 at 2014-07-09 11:24:32 -0700
+Processing by SearchController#search_results as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XJl++EWEePiWR9yjR372/URWMHE8LIz77ZO1n/PoVgQ=", "from_address"=>"", "to_address"=>"", "date"=>"", "keywords"=>"\"Broadband Internet Access\"", "commit"=>"Search"}
+MONGODB (1644.2ms) enron['messages'].find({:$text=>{"$search"=>"\"Broadband Internet Access\""}})
+  Rendered search/search_results.html.slim within layouts/application (6.5ms)
+Completed 200 OK in 1665ms (Views: 12.1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:24:33 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:24:33 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-09 11:24:33 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-09 11:24:33 -0700
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2014-07-09 11:24:33 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:24:33 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 11:24:33 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-09 11:24:33 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:24:33 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-09 11:24:33 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-09 11:25:32 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.9ms)
+Completed 200 OK in 8ms (Views: 7.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:25:33 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-09 11:25:33 -0700
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2014-07-09 11:25:33 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-09 11:25:33 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:25:33 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 11:25:33 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:25:33 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-09 11:25:33 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-09 11:25:33 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:25:33 -0700
+
+
+Started POST "/search/search_results" for 127.0.0.1 at 2014-07-09 11:25:38 -0700
+Processing by SearchController#search_results as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XJl++EWEePiWR9yjR372/URWMHE8LIz77ZO1n/PoVgQ=", "from_address"=>"", "to_address"=>"", "date"=>"", "keywords"=>"israel", "commit"=>"Search"}
+MONGODB (12.8ms) enron['messages'].find({:$text=>{"$search"=>"israel"}})
+MONGODB [DEBUG] cursor.refresh() for cursor 305118660215
+MONGODB [DEBUG] cursor.refresh() for cursor 305118660215
+  Rendered search/search_results.html.slim within layouts/application (52.5ms)
+Completed 200 OK in 180ms (Views: 57.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:25:38 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-09 11:25:38 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:25:38 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:25:38 -0700
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2014-07-09 11:25:38 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-09 11:25:38 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 11:25:38 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-09 11:25:38 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-09 11:25:38 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:25:38 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-09 11:25:45 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (1.1ms)
+Completed 200 OK in 8ms (Views: 7.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:25:45 -0700
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2014-07-09 11:25:45 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:25:45 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:25:45 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-09 11:25:45 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-09 11:25:45 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 11:25:45 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-09 11:25:45 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-09 11:25:45 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:25:45 -0700
+
+
+Started POST "/search/search_results" for 127.0.0.1 at 2014-07-09 11:25:52 -0700
+Processing by SearchController#search_results as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XJl++EWEePiWR9yjR372/URWMHE8LIz77ZO1n/PoVgQ=", "from_address"=>"eric.bass@enron.com", "to_address"=>"", "date"=>"", "keywords"=>"", "commit"=>"Search"}
+MONGODB (9.6ms) enron['messages'].find({:"headers.From"=>"eric.bass@enron.com"})
+MONGODB [DEBUG] cursor.refresh() for cursor 305929374944
+  Rendered search/search_results.html.slim within layouts/application (15.9ms)
+Completed 200 OK in 44ms (Views: 20.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:25:52 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-09 11:25:52 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-09 11:25:52 -0700
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2014-07-09 11:25:52 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:25:52 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-09 11:25:52 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:25:52 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 11:25:52 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:25:52 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-09 11:25:52 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-09 11:26:04 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (1.4ms)
+Completed 200 OK in 10ms (Views: 6.7ms)
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-09 11:26:04 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-09 11:26:04 -0700
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2014-07-09 11:26:04 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:26:04 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:26:04 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:26:04 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 11:26:04 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-09 11:26:04 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-09 11:26:04 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:26:04 -0700
+
+
+Started POST "/search/search_results" for 127.0.0.1 at 2014-07-09 11:26:08 -0700
+Processing by SearchController#search_results as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XJl++EWEePiWR9yjR372/URWMHE8LIz77ZO1n/PoVgQ=", "from_address"=>"", "to_address"=>"bryan.hull@enron.com", "date"=>"", "keywords"=>"", "commit"=>"Search"}
+MONGODB (37.9ms) enron['messages'].find({:"headers.To"=>{:$in=>["bryan.hull@enron.com"]}})
+MONGODB [DEBUG] cursor.refresh() for cursor 305382388098
+  Rendered search/search_results.html.slim within layouts/application (17.0ms)
+Completed 200 OK in 404ms (Views: 22.6ms)
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2014-07-09 11:26:09 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-09 11:26:09 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:26:09 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-09 11:26:09 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:26:09 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:26:09 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 11:26:09 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-09 11:26:09 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:26:09 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-09 11:26:09 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-09 11:26:35 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (1.0ms)
+Completed 200 OK in 7ms (Views: 6.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:26:35 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-09 11:26:35 -0700
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2014-07-09 11:26:36 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-09 11:26:36 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:26:36 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:26:36 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 11:26:36 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-09 11:26:36 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-09 11:26:36 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:26:36 -0700
+
+
+Started POST "/search/search_results" for 127.0.0.1 at 2014-07-09 11:26:40 -0700
+Processing by SearchController#search_results as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XJl++EWEePiWR9yjR372/URWMHE8LIz77ZO1n/PoVgQ=", "from_address"=>"", "to_address"=>"phillip.love@enron.com", "date"=>"", "keywords"=>"", "commit"=>"Search"}
+MONGODB (10.2ms) enron['messages'].find({:"headers.To"=>{:$in=>["phillip.love@enron.com"]}})
+MONGODB [DEBUG] cursor.refresh() for cursor 306560221924
+  Rendered search/search_results.html.slim within layouts/application (23.6ms)
+Completed 200 OK in 215ms (Views: 29.6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:26:40 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:26:40 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-09 11:26:40 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:26:41 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-09 11:26:41 -0700
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2014-07-09 11:26:41 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 11:26:41 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-09 11:26:41 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-09 11:26:41 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:26:41 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-09 11:27:06 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.9ms)
+Completed 200 OK in 8ms (Views: 7.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:27:06 -0700
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2014-07-09 11:27:06 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 11:27:06 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-09 11:27:06 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:27:06 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-09 11:27:06 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-09 11:27:06 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:27:06 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-09 11:27:06 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:27:06 -0700
+
+
+Started POST "/search/search_results" for 127.0.0.1 at 2014-07-09 11:27:11 -0700
+Processing by SearchController#search_results as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XJl++EWEePiWR9yjR372/URWMHE8LIz77ZO1n/PoVgQ=", "from_address"=>"", "to_address"=>"", "date"=>"", "keywords"=>"rebook", "commit"=>"Search"}
+MONGODB (9.9ms) enron['messages'].find({:$text=>{"$search"=>"rebook"}})
+MONGODB [DEBUG] cursor.refresh() for cursor 307086458464
+  Rendered search/search_results.html.slim within layouts/application (18.0ms)
+Completed 200 OK in 91ms (Views: 23.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:27:12 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-09 11:27:12 -0700
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2014-07-09 11:27:12 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:27:12 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:27:12 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-09 11:27:12 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 11:27:12 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-09 11:27:12 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-09 11:27:12 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:27:12 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-09 11:27:21 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (1.3ms)
+Completed 200 OK in 9ms (Views: 8.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:27:21 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-09 11:27:21 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:27:21 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:27:21 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-09 11:27:21 -0700
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2014-07-09 11:27:21 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 11:27:21 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-09 11:27:21 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:27:21 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-09 11:27:21 -0700
+
+
+Started POST "/search/search_results" for 127.0.0.1 at 2014-07-09 11:27:26 -0700
+Processing by SearchController#search_results as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XJl++EWEePiWR9yjR372/URWMHE8LIz77ZO1n/PoVgQ=", "from_address"=>"", "to_address"=>"", "date"=>"", "keywords"=>"credit", "commit"=>"Search"}
+MONGODB (61.2ms) enron['messages'].find({:$text=>{"$search"=>"credit"}})
+MONGODB [DEBUG] cursor.refresh() for cursor 305935357364
+MONGODB [DEBUG] cursor.refresh() for cursor 305935357364
+MONGODB [DEBUG] cursor.refresh() for cursor 305935357364
+MONGODB [DEBUG] cursor.refresh() for cursor 305935357364
+MONGODB [DEBUG] cursor.refresh() for cursor 305935357364
+MONGODB [DEBUG] cursor.refresh() for cursor 305935357364
+MONGODB [DEBUG] cursor.refresh() for cursor 305935357364
+MONGODB [DEBUG] cursor.refresh() for cursor 305935357364
+MONGODB [DEBUG] cursor.refresh() for cursor 305935357364
+MONGODB [DEBUG] cursor.refresh() for cursor 305935357364
+MONGODB [DEBUG] cursor.refresh() for cursor 305935357364
+MONGODB [DEBUG] cursor.refresh() for cursor 305935357364
+MONGODB [DEBUG] cursor.refresh() for cursor 305935357364
+MONGODB [DEBUG] cursor.refresh() for cursor 305935357364
+MONGODB [DEBUG] cursor.refresh() for cursor 305935357364
+MONGODB [DEBUG] cursor.refresh() for cursor 305935357364
+MONGODB [DEBUG] cursor.refresh() for cursor 305935357364
+MONGODB [DEBUG] cursor.refresh() for cursor 305935357364
+MONGODB [DEBUG] cursor.refresh() for cursor 305935357364
+MONGODB [DEBUG] cursor.refresh() for cursor 305935357364
+MONGODB [DEBUG] cursor.refresh() for cursor 305935357364
+MONGODB [DEBUG] cursor.refresh() for cursor 305935357364
+MONGODB [DEBUG] cursor.refresh() for cursor 305935357364
+MONGODB [DEBUG] cursor.refresh() for cursor 305935357364
+MONGODB [DEBUG] cursor.refresh() for cursor 305935357364
+  Rendered search/search_results.html.slim within layouts/application (25.5ms)
+Completed 200 OK in 89608ms (Views: 32.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:28:56 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-09 11:28:56 -0700
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2014-07-09 11:28:56 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-09 11:28:56 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:28:56 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:28:56 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-09 11:28:56 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 11:28:56 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:28:56 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-09 11:28:56 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-09 12:32:28 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (1.6ms)
+Completed 200 OK in 12ms (Views: 10.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 12:32:28 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-09 12:32:28 -0700
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2014-07-09 12:32:28 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-09 12:32:28 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 12:32:28 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-09 12:32:28 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 12:32:28 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 12:32:28 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-09 12:32:28 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 12:32:28 -0700
+
+
+Started POST "/search/search_results" for 127.0.0.1 at 2014-07-09 12:34:15 -0700
+Processing by SearchController#search_results as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XJl++EWEePiWR9yjR372/URWMHE8LIz77ZO1n/PoVgQ=", "from_address"=>"", "to_address"=>"", "date"=>"", "keywords"=>"credit", "commit"=>"Search"}
+MONGODB (35.4ms) enron['messages'].find({:$text=>{"$search"=>"credit"}})
+MONGODB [DEBUG] cursor.refresh() for cursor 306476963984
+MONGODB [DEBUG] cursor.refresh() for cursor 306476963984
+MONGODB [DEBUG] cursor.refresh() for cursor 306476963984
+MONGODB [DEBUG] cursor.refresh() for cursor 306476963984
+MONGODB [DEBUG] cursor.refresh() for cursor 306476963984
+MONGODB [DEBUG] cursor.refresh() for cursor 306476963984
+MONGODB [DEBUG] cursor.refresh() for cursor 306476963984
+MONGODB [DEBUG] cursor.refresh() for cursor 306476963984
+MONGODB [DEBUG] cursor.refresh() for cursor 306476963984
+MONGODB [DEBUG] cursor.refresh() for cursor 306476963984
+MONGODB [DEBUG] cursor.refresh() for cursor 306476963984
+MONGODB [DEBUG] cursor.refresh() for cursor 306476963984
+MONGODB [DEBUG] cursor.refresh() for cursor 306476963984
+MONGODB [DEBUG] cursor.refresh() for cursor 306476963984
+MONGODB [DEBUG] cursor.refresh() for cursor 306476963984
+MONGODB [DEBUG] cursor.refresh() for cursor 306476963984
+MONGODB [DEBUG] cursor.refresh() for cursor 306476963984
+MONGODB [DEBUG] cursor.refresh() for cursor 306476963984
+MONGODB [DEBUG] cursor.refresh() for cursor 306476963984
+MONGODB [DEBUG] cursor.refresh() for cursor 306476963984
+MONGODB [DEBUG] cursor.refresh() for cursor 306476963984
+MONGODB [DEBUG] cursor.refresh() for cursor 306476963984
+MONGODB [DEBUG] cursor.refresh() for cursor 306476963984
+MONGODB [DEBUG] cursor.refresh() for cursor 306476963984
+MONGODB [DEBUG] cursor.refresh() for cursor 306476963984
+  Rendered search/search_results.html.slim within layouts/application (24.5ms)
+Completed 200 OK in 3294ms (Views: 33.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 12:34:19 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-09 12:34:19 -0700
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2014-07-09 12:34:19 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-09 12:34:19 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 12:34:19 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 12:34:19 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 12:34:19 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-09 12:34:19 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-09 12:34:19 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 12:34:19 -0700
+
+
+Started GET "/search/search_results?authenticity_token=XJl%2B%2BEWEePiWR9yjR372%2FURWMHE8LIz77ZO1n%2FPoVgQ%3D&commit=Search&date=&from_address=&keywords=credit&page=965&to_address=&utf8=%E2%9C%93" for 127.0.0.1 at 2014-07-09 12:34:44 -0700
+Processing by SearchController#search_results as HTML
+  Parameters: {"authenticity_token"=>"XJl++EWEePiWR9yjR372/URWMHE8LIz77ZO1n/PoVgQ=", "commit"=>"Search", "date"=>"", "from_address"=>"", "keywords"=>"credit", "page"=>"965", "to_address"=>"", "utf8"=>"✓"}
+MONGODB (66.5ms) enron['messages'].find({:$text=>{"$search"=>"credit"}})
+MONGODB [DEBUG] cursor.refresh() for cursor 305462974944
+MONGODB [DEBUG] cursor.refresh() for cursor 305462974944
+MONGODB [DEBUG] cursor.refresh() for cursor 305462974944
+MONGODB [DEBUG] cursor.refresh() for cursor 305462974944
+MONGODB [DEBUG] cursor.refresh() for cursor 305462974944
+MONGODB [DEBUG] cursor.refresh() for cursor 305462974944
+MONGODB [DEBUG] cursor.refresh() for cursor 305462974944
+MONGODB [DEBUG] cursor.refresh() for cursor 305462974944
+MONGODB [DEBUG] cursor.refresh() for cursor 305462974944
+MONGODB [DEBUG] cursor.refresh() for cursor 305462974944
+MONGODB [DEBUG] cursor.refresh() for cursor 305462974944
+MONGODB [DEBUG] cursor.refresh() for cursor 305462974944
+MONGODB [DEBUG] cursor.refresh() for cursor 305462974944
+MONGODB [DEBUG] cursor.refresh() for cursor 305462974944
+MONGODB [DEBUG] cursor.refresh() for cursor 305462974944
+MONGODB [DEBUG] cursor.refresh() for cursor 305462974944
+MONGODB [DEBUG] cursor.refresh() for cursor 305462974944
+MONGODB [DEBUG] cursor.refresh() for cursor 305462974944
+MONGODB [DEBUG] cursor.refresh() for cursor 305462974944
+MONGODB [DEBUG] cursor.refresh() for cursor 305462974944
+MONGODB [DEBUG] cursor.refresh() for cursor 305462974944
+MONGODB [DEBUG] cursor.refresh() for cursor 305462974944
+MONGODB [DEBUG] cursor.refresh() for cursor 305462974944
+MONGODB [DEBUG] cursor.refresh() for cursor 305462974944
+MONGODB [DEBUG] cursor.refresh() for cursor 305462974944
+  Rendered search/search_results.html.slim within layouts/application (30.3ms)
+Completed 200 OK in 2955ms (Views: 36.1ms)
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-09 12:34:47 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-09 12:34:47 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 12:34:47 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 12:34:47 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 12:34:47 -0700
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2014-07-09 12:34:47 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 12:34:47 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-09 12:34:47 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-09 12:34:47 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 12:34:47 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-09 12:38:02 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (7.8ms)
+Completed 200 OK in 50ms (Views: 49.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-09 12:38:24 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (3.0ms)
+Completed 200 OK in 10ms (Views: 9.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 12:38:25 -0700
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2014-07-09 12:38:25 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 12:38:25 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-09 12:38:25 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-09 12:38:25 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 12:38:25 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 12:38:25 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-09 12:38:25 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-09 12:38:25 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 12:38:25 -0700
+
+
+Started POST "/search/search_results" for 127.0.0.1 at 2014-07-09 12:38:32 -0700
+Processing by SearchController#search_results as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XJl++EWEePiWR9yjR372/URWMHE8LIz77ZO1n/PoVgQ=", "from_address"=>"", "to_address"=>"", "date"=>"", "keywords"=>"bank", "commit"=>"Search"}
+MONGODB (129.8ms) enron['messages'].find({:$text=>{"$search"=>"bank"}})
+MONGODB [DEBUG] cursor.refresh() for cursor 307038136577
+MONGODB [DEBUG] cursor.refresh() for cursor 307038136577
+MONGODB [DEBUG] cursor.refresh() for cursor 307038136577
+MONGODB [DEBUG] cursor.refresh() for cursor 307038136577
+MONGODB [DEBUG] cursor.refresh() for cursor 307038136577
+MONGODB [DEBUG] cursor.refresh() for cursor 307038136577
+MONGODB [DEBUG] cursor.refresh() for cursor 307038136577
+MONGODB [DEBUG] cursor.refresh() for cursor 307038136577
+MONGODB [DEBUG] cursor.refresh() for cursor 307038136577
+MONGODB [DEBUG] cursor.refresh() for cursor 307038136577
+MONGODB [DEBUG] cursor.refresh() for cursor 307038136577
+MONGODB [DEBUG] cursor.refresh() for cursor 307038136577
+MONGODB [DEBUG] cursor.refresh() for cursor 307038136577
+MONGODB [DEBUG] cursor.refresh() for cursor 307038136577
+MONGODB [DEBUG] cursor.refresh() for cursor 307038136577
+MONGODB [DEBUG] cursor.refresh() for cursor 307038136577
+MONGODB [DEBUG] cursor.refresh() for cursor 307038136577
+  Rendered search/search_results.html.slim within layouts/application (22.6ms)
+Completed 200 OK in 1372ms (Views: 28.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 12:38:33 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-09 12:38:33 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-09 12:38:33 -0700
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2014-07-09 12:38:33 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 12:38:33 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 12:38:33 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 12:38:33 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-09 12:38:33 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-09 12:38:33 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 12:38:33 -0700
+
+
+Started GET "/search/search_results?authenticity_token=XJl%2B%2BEWEePiWR9yjR372%2FURWMHE8LIz77ZO1n%2FPoVgQ%3D&commit=Search&date=&from_address=&keywords=bank&page=5&to_address=&utf8=%E2%9C%93" for 127.0.0.1 at 2014-07-09 12:39:04 -0700
+Processing by SearchController#search_results as HTML
+  Parameters: {"authenticity_token"=>"XJl++EWEePiWR9yjR372/URWMHE8LIz77ZO1n/PoVgQ=", "commit"=>"Search", "date"=>"", "from_address"=>"", "keywords"=>"bank", "page"=>"5", "to_address"=>"", "utf8"=>"✓"}
+MONGODB (10.5ms) enron['messages'].find({:$text=>{"$search"=>"bank"}})
+MONGODB [DEBUG] cursor.refresh() for cursor 305345269493
+MONGODB [DEBUG] cursor.refresh() for cursor 305345269493
+MONGODB [DEBUG] cursor.refresh() for cursor 305345269493
+MONGODB [DEBUG] cursor.refresh() for cursor 305345269493
+MONGODB [DEBUG] cursor.refresh() for cursor 305345269493
+MONGODB [DEBUG] cursor.refresh() for cursor 305345269493
+MONGODB [DEBUG] cursor.refresh() for cursor 305345269493
+MONGODB [DEBUG] cursor.refresh() for cursor 305345269493
+MONGODB [DEBUG] cursor.refresh() for cursor 305345269493
+MONGODB [DEBUG] cursor.refresh() for cursor 305345269493
+MONGODB [DEBUG] cursor.refresh() for cursor 305345269493
+MONGODB [DEBUG] cursor.refresh() for cursor 305345269493
+MONGODB [DEBUG] cursor.refresh() for cursor 305345269493
+MONGODB [DEBUG] cursor.refresh() for cursor 305345269493
+MONGODB [DEBUG] cursor.refresh() for cursor 305345269493
+MONGODB [DEBUG] cursor.refresh() for cursor 305345269493
+MONGODB [DEBUG] cursor.refresh() for cursor 305345269493
+  Rendered search/search_results.html.slim within layouts/application (37.0ms)
+Completed 200 OK in 1257ms (Views: 42.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 12:39:05 -0700
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2014-07-09 12:39:05 -0700
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2014-07-09 12:39:05 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-09 12:39:05 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 12:39:05 -0700
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-07-09 12:39:05 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-09 12:39:05 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 12:39:05 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 12:39:05 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 12:39:05 -0700
+
+
+Started GET "/search/search_results?authenticity_token=XJl%2B%2BEWEePiWR9yjR372%2FURWMHE8LIz77ZO1n%2FPoVgQ%3D&commit=Search&date=&from_address=&keywords=bank&page=313&to_address=&utf8=%E2%9C%93" for 127.0.0.1 at 2014-07-09 12:39:14 -0700
+Processing by SearchController#search_results as HTML
+  Parameters: {"authenticity_token"=>"XJl++EWEePiWR9yjR372/URWMHE8LIz77ZO1n/PoVgQ=", "commit"=>"Search", "date"=>"", "from_address"=>"", "keywords"=>"bank", "page"=>"313", "to_address"=>"", "utf8"=>"✓"}
+MONGODB (12.9ms) enron['messages'].find({:$text=>{"$search"=>"bank"}})
+MONGODB [DEBUG] cursor.refresh() for cursor 305639547714
+MONGODB [DEBUG] cursor.refresh() for cursor 305639547714
+MONGODB [DEBUG] cursor.refresh() for cursor 305639547714
+MONGODB [DEBUG] cursor.refresh() for cursor 305639547714
+MONGODB [DEBUG] cursor.refresh() for cursor 305639547714
+MONGODB [DEBUG] cursor.refresh() for cursor 305639547714
+MONGODB [DEBUG] cursor.refresh() for cursor 305639547714
+MONGODB [DEBUG] cursor.refresh() for cursor 305639547714
+MONGODB [DEBUG] cursor.refresh() for cursor 305639547714
+MONGODB [DEBUG] cursor.refresh() for cursor 305639547714
+MONGODB [DEBUG] cursor.refresh() for cursor 305639547714
+MONGODB [DEBUG] cursor.refresh() for cursor 305639547714
+MONGODB [DEBUG] cursor.refresh() for cursor 305639547714
+MONGODB [DEBUG] cursor.refresh() for cursor 305639547714
+MONGODB [DEBUG] cursor.refresh() for cursor 305639547714
+MONGODB [DEBUG] cursor.refresh() for cursor 305639547714
+MONGODB [DEBUG] cursor.refresh() for cursor 305639547714
+  Rendered search/search_results.html.slim within layouts/application (22.5ms)
+Completed 200 OK in 1245ms (Views: 29.6ms)
+
+
+Started GET "/search/search_results?authenticity_token=XJl%2B%2BEWEePiWR9yjR372%2FURWMHE8LIz77ZO1n%2FPoVgQ%3D&commit=Search&date=&from_address=&keywords=bank&page=309&to_address=&utf8=%E2%9C%93" for 127.0.0.1 at 2014-07-09 12:43:42 -0700
+Processing by SearchController#search_results as HTML
+  Parameters: {"authenticity_token"=>"XJl++EWEePiWR9yjR372/URWMHE8LIz77ZO1n/PoVgQ=", "commit"=>"Search", "date"=>"", "from_address"=>"", "keywords"=>"bank", "page"=>"309", "to_address"=>"", "utf8"=>"✓"}
+MONGODB (75.0ms) enron['messages'].find({:$text=>{"$search"=>"bank"}})
+MONGODB [DEBUG] cursor.refresh() for cursor 305718801290
+MONGODB [DEBUG] cursor.refresh() for cursor 305718801290
+MONGODB [DEBUG] cursor.refresh() for cursor 305718801290
+MONGODB [DEBUG] cursor.refresh() for cursor 305718801290
+MONGODB [DEBUG] cursor.refresh() for cursor 305718801290
+MONGODB [DEBUG] cursor.refresh() for cursor 305718801290
+MONGODB [DEBUG] cursor.refresh() for cursor 305718801290
+MONGODB [DEBUG] cursor.refresh() for cursor 305718801290
+MONGODB [DEBUG] cursor.refresh() for cursor 305718801290
+MONGODB [DEBUG] cursor.refresh() for cursor 305718801290
+MONGODB [DEBUG] cursor.refresh() for cursor 305718801290
+MONGODB [DEBUG] cursor.refresh() for cursor 305718801290
+MONGODB [DEBUG] cursor.refresh() for cursor 305718801290
+MONGODB [DEBUG] cursor.refresh() for cursor 305718801290
+MONGODB [DEBUG] cursor.refresh() for cursor 305718801290
+MONGODB [DEBUG] cursor.refresh() for cursor 305718801290
+MONGODB [DEBUG] cursor.refresh() for cursor 305718801290
+  Rendered search/search_results.html.slim within layouts/application (30.1ms)
+Completed 200 OK in 1227ms (Views: 35.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-09 12:43:48 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.8ms)
+Completed 200 OK in 7ms (Views: 6.4ms)
