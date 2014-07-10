@@ -12,38 +12,17 @@
 <script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
 
 <script>
-	 $(function() {
-		
-		 var availableTags = [
-		"ActionScript",
-		"AppleScript",
-		"Asp",
-		"BASIC",
-		"C",
-		"C++",
-		"Clojure",
-		"COBOL",
-		"ColdFusion",
-		"Erlang",
-		"Fortran",
-		"Groovy",
-		"Haskell",
-		"Java",
-		"JavaScript",
-		"Lisp",
-		"Perl",
-		"PHP",
-		"Python",
-		"Ruby",
-		"Scala",
-		"Scheme"
-		];
-		
+	 $(function() {		
 		$( "#from_address" ).autocomplete({
 			source: "/search/from_field",
-			minLength: 2
-			//source: availableTags
+			minLength: 3
 		});
+	
+		$( "#to_address" ).autocomplete({
+			source: "/search/to_field",
+			minLength: 3
+		});
+	
 	});
 	
 
