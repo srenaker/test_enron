@@ -12,9 +12,4 @@ test:
 
 # set these environment variables on your prod server
 production:
-  host: <%= ENV['MONGO_HOST'] %>
-  port: <%= ENV['MONGO_PORT'] %>
-  database: test_enron
-  username: <%= ENV['MONGO_USERNAME'] %>
-  password: <%= ENV['MONGO_PASSWORD'] %>
-  
+  uri: <%= ENV['MONGOHQ_URL'] %>
