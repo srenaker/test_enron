@@ -9,8 +9,7 @@ h3
 	
 - if @results.length == 0
 	| No messages found.
-	p
-	= link_to "Back", root_path
+
 - else
 	| Number of results: #{@num_results}
 	| #{@deduped.html_safe}

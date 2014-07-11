@@ -1,5 +1,11 @@
 class SearchController < ApplicationController
   
+  ## possible new features:
+  # turn on/off search term anchored to beginning of to/from address string
+  # limit number of addresses in to: field
+  # aggregate queries for most messages sent, # of messages sent
+  # documentation: explain some challenges of the search system
+  
   #### autocomplete queries
   def from_field
     q = params[:term]
@@ -27,7 +33,7 @@ class SearchController < ApplicationController
     
     @from_address = params[:from_address]
     @to_address = params[:to_address]      
-    @date = params[:date]
+    @date = params[:datepicker]
     @keywords = params[:keywords]
     
     q = {}
@@ -41,10 +47,25 @@ class SearchController < ApplicationController
       q['headers.To'] = [@to_address]
     end
     
+    unless @date.blank?
+      start_date = Time.parse(@date)
+      end_date = start_date + 1.day
+      
+      
+      date_comp = {}
+      date_comp['$gte'] = start_date
+      # date_comp['$gte'] = Time.parse("2001-04-04")
+      date_comp['$lt'] = end_date
+      # date_comp['$lt'] = Time.parse("2001-04-06")
+
+      q['headers.Date'] = date_comp
+    end
+    
     unless @keywords.blank?
       q['$text'] = {'$search' => @keywords}
     end
    
+    redirect_to root_path if q.length == 0 
         
     messages = Message.where(q).to_a
        

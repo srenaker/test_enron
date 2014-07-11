@@ -25,18 +25,20 @@ table cellpadding=5
 		tr	
 			td To: 
 			td
-				.ui_widget
+				.ui-widget
 					= text_field_tag :to_address, "", size: 35, maxlength: 40
 		tr	
 			td Date: 
 			td
-				= text_field_tag :date, "", size: 25, maxlength: 40
+				.ui-widget
+					= text_field_tag :datepicker, "", size: 35, maxlength: 40
 
 
 		tr	
 			td Subject/body: 
 			td
-				= text_field_tag :keywords, "", size: 25, maxlength: 40 
+				.ui-widget
+					= text_field_tag :keywords, "", size: 35, maxlength: 40 
 			td
 				i 
 					| (full text search)

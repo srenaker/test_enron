@@ -6,11 +6,6 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 
-
-<link rel="stylesheet" href="//code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
-<script src="//code.jquery.com/jquery-1.10.2.js"></script>
-<script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
-
 <script>
 	 $(function() {		
 		$( "#from_address" ).autocomplete({
@@ -22,6 +17,11 @@
 			source: "/search/to_field",
 			minLength: 3
 		});
+		
+		$( "#datepicker" ).datepicker({
+				defaultDate: new Date("2001-02-02"),
+				dateFormat: "yy-mm-dd"
+			});
 	
 	});
 	

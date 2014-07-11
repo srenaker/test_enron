@@ -8,6 +8,7 @@ EnronTest::Application.routes.draw do
   post 'search/search_results'
   get 'search/search_results'
   get 'search/from_field'
+  get 'search/to_field'
   
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
