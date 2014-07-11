@@ -20,11 +20,13 @@ table cellpadding=5
 		tr
 			td From: 
 			td
-				= text_field_tag :from_address, "", size: 25, maxlength: 40
+				.ui-widget
+					= text_field_tag :from_address, "", size: 35, maxlength: 40
 		tr	
 			td To: 
 			td
-				= text_field_tag :to_address, "", size: 25, maxlength: 40
+				.ui_widget
+					= text_field_tag :to_address, "", size: 35, maxlength: 40
 		tr	
 			td Date: 
 			td

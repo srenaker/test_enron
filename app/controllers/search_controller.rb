@@ -1,5 +1,28 @@
 class SearchController < ApplicationController
   
+  #### autocomplete queries
+  def from_field
+    q = params[:term]
+    result = FromAddress.where(:_id => /^#{q}/).all
+    arr = {}
+    result.each_with_index do |j, i|
+      arr[i] = j._id
+    end
+    render :json => arr
+  end
+  
+  def to_field
+    q = params[:term]
+    result = FromAddress.where(:_id => /^#{q}/).all
+    arr = {}
+    result.each_with_index do |j, i|
+      arr[i] = j._id
+    end
+    render :json => arr
+  end
+  
+  
+  #### messages search query
   def search_results
     
     @from_address = params[:from_address]
