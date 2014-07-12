@@ -50,14 +50,10 @@ class SearchController < ApplicationController
     unless @date.blank?
       start_date = Time.parse(@date)
       end_date = start_date + 1.day
-      
-      
+          
       date_comp = {}
       date_comp['$gte'] = start_date
-      # date_comp['$gte'] = Time.parse("2001-04-04")
       date_comp['$lt'] = end_date
-      # date_comp['$lt'] = Time.parse("2001-04-06")
-
       q['headers.Date'] = date_comp
     end
     
@@ -79,9 +75,8 @@ class SearchController < ApplicationController
     #       else
     #         message_bodies << m['body'] 
     #       end
-    #     end 
-      
-    @num_results > messages.length ? @deduped = "<p>Some duplicate messages are not displayed." : @deduped = "" 
+    #     end       
+    # @num_results > messages.length ? @deduped = "<p>Some duplicate messages are not displayed." : @deduped = "" 
     
     @results = Kaminari.paginate_array(messages).page(params[:page]).per(10)
     
