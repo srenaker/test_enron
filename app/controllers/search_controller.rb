@@ -19,7 +19,7 @@ class SearchController < ApplicationController
   
   def to_field
     q = params[:term]
-    result = FromAddress.where(:_id => /^#{q}/).all
+    result = ToAddress.where(:_id => /^#{q}/).all
     arr = {}
     result.each_with_index do |j, i|
       arr[i] = j._id
@@ -37,14 +37,15 @@ class SearchController < ApplicationController
     @keywords = params[:keywords]
     
     q = {}
+    messages = []
     
     # assemble query hash
     unless @from_address.blank?
-      q['headers.From'] = @from_address
+      q['From'] = @from_address
     end
         
     unless @to_address.blank?
-      q['headers.To'] = [@to_address]
+      q['To'] = [@to_address]
     end
     
     unless @date.blank?
@@ -54,16 +55,16 @@ class SearchController < ApplicationController
       date_comp = {}
       date_comp['$gte'] = start_date
       date_comp['$lt'] = end_date
-      q['headers.Date'] = date_comp
+      q['Date'] = date_comp
     end
     
     unless @keywords.blank?
       q['$text'] = {'$search' => @keywords}
     end
-   
-    redirect_to root_path if q.length == 0 
-        
-    messages = Message.where(q).to_a
+            
+    messages = Message.where(q).to_a unless q.length == 0
+    
+    # redirect_to root_path if q.length == 0   
        
     @num_results = messages.length
       
@@ -76,7 +77,7 @@ class SearchController < ApplicationController
     #         message_bodies << m['body'] 
     #       end
     #     end       
-    # @num_results > messages.length ? @deduped = "<p>Some duplicate messages are not displayed." : @deduped = "" 
+    @num_results > messages.length ? @deduped = "<p>Some duplicate messages are not displayed." : @deduped = "" 
     
     @results = Kaminari.paginate_array(messages).page(params[:page]).per(10)
     

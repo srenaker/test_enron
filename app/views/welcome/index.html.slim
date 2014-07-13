@@ -1,4 +1,5 @@
-h1 Enron email sampler
+.headline
+	|Enron email sampler
 
 p 
 | This app allows users to view and, in a limited way, search a subset of the Enron email collection which first appeared online in 2003 (details can be found 
@@ -8,25 +9,32 @@ nbsp
 
 p
 
-| This subset contains 120,477 of the original messages in the date range Feb. 1, 2001 through Sept. 1, 2001, with no attachments.
+| This subset contains 517,424 of the original messages, with no attachments. I downloaded the archive from 
+= link_to "here", "http://www.cs.cmu.edu/~./enron/" 
+|, parsed the messages and loaded them into a MongoDB collection.
 
 p
 
 h3 Search criteria:
-| All fields are optional.
+| All fields are optional, but at least one must be filled in. 
+p
+| The To: and From: search fields have autocomplete help after 3 characters.  The date field finds messages from the selected day only -- searching for a date range is on the to-do list.
 p
 table cellpadding=5
 	= form_tag search_search_results_path, method: 'post' do
-		tr
-			td From: 
-			td
-				.ui-widget
-					= text_field_tag :from_address, "", size: 35, maxlength: 40
+
 		tr	
 			td To: 
 			td
 				.ui-widget
 					= text_field_tag :to_address, "", size: 35, maxlength: 40
+
+		tr
+			td From: 
+			td
+				.ui-widget
+					= text_field_tag :from_address, "", size: 35, maxlength: 40
+
 		tr	
 			td Date: 
 			td
@@ -45,4 +53,12 @@ table cellpadding=5
 
 		tr
 			td
-				= submit_tag "Search"
+			td 
+				.ui-widget
+					= submit_tag "Search"
+p
+p
+.contact
+	| Contact: 
+	=mail_to 'info@renaker.com', 'Steve Renaker'
+	

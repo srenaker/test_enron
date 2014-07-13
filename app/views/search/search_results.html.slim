@@ -1,3 +1,4 @@
+a name="top"
 = link_to "New search", root_path
 
 h3 
@@ -14,29 +15,50 @@ h3
 	| Number of results: #{@num_results}
 	| #{@deduped.html_safe}
 
-p	
+	p	
+	|Page:
+	br
+	= paginate @results
 
-= paginate @results
+	p
 
-- @results.each do |m|
-	- body = m['body'].sub(/\\n/, '<br>')
+	| Subject index for this page:
+
+	
+
+	- @results.each_with_index do |s, i|
+		li 
+			- s['Subject'].blank? ? subj = '(none)' : subj = s['Subject']
+			=link_to subj, "#message#{i}", :class => 'subj_index'
+
+p
+- @results.each_with_index do |m, i|
+	- body = m['Body'].sub(/\\n/, '<br>')
 	p
 		pre
 			.message
+				a name="message#{i}"
+					
 				b To: 
-				| #{m['headers']['To']}
+				| #{m['To']}
 				br
 				b From: 
-				| #{m['headers']['From']}
+				| #{m['From']}
 				br
 				b Date: 
-				| #{m['headers']['Date']}
+				| #{m['Date']}
 				br
 				b Subject: 
-				| #{m['headers']['Subject']}
+				| #{m['Subject']}
 				p
 				
 				| #{body}
+	
+	=link_to "Back to top", "#top", :class => 'page_nav'
+	.spacer
+	 	| | 
+	=link_to "New search", root_path, :class => 'page_nav'
+	p
 	hr
 	br
 	
