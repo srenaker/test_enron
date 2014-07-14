@@ -1,55 +1,61 @@
 a name="top"
 = link_to "New search", root_path
 
-h3 
-	- if @type == 'from'
-		| Messages from #{@from_address}
-	- elsif @type == 'keywords'
-		| Messages with keywords #{@keywords}
-	
+p
+
+| Terms: 
+- @terms.each do |t|
+	|  #{t}  
+
+p	
 	
 - if @results.length == 0
 	| No messages found.
 
 - else
+
 	| Number of results: #{@num_results}
 	| #{@deduped.html_safe}
 
-	p	
-	|Page:
-	br
+	p
+	- if @num_results > 10	
+		|Page:
+		br
 	= paginate @results
 
 	p
 
 	| Subject index for this page:
 
-	
-
 	- @results.each_with_index do |s, i|
 		li 
-			- s['Subject'].blank? ? subj = '(none)' : subj = s['Subject']
+			- s['headers']['Subject'].blank? ? subj = '(none)' : subj = s['headers']['Subject']
 			=link_to subj, "#message#{i}", :class => 'subj_index'
 
 p
 - @results.each_with_index do |m, i|
-	- body = m['Body'].sub(/\\n/, '<br>')
+	/! - body = m['Body'].sub(/\\n/, '<br>')
+	- body = m['body'].sub(/\\n/, '<br>')
+	
+	
+	/! highlight keywords, if any
+
 	p
 		pre
 			.message
 				a name="message#{i}"
 					
 				b To: 
-				| #{m['To']}
+				| #{m['headers']['To']}
 				br
 				b From: 
-				| #{m['From']}
+				| #{m['headers']['From']}
 				br
 				b Date: 
-				| #{m['Date']}
+				| #{m['headers']['Date']}
 				br
 				b Subject: 
-				| #{m['Subject']}
+				| #{m['headers']['Subject']}
 				p
 				
 				| #{body}

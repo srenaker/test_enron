@@ -49,3 +49,7 @@ a:hover {
 	font-size: 11pt;
 }
 
+.highlighted {
+	display: inline;
+	color: red;
+}

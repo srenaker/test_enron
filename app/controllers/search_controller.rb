@@ -1,11 +1,5 @@
 class SearchController < ApplicationController
   
-  ## possible new features:
-  # turn on/off search term anchored to beginning of to/from address string
-  # limit number of addresses in to: field
-  # aggregate queries for most messages sent, # of messages sent
-  # documentation: explain some challenges of the search system
-  
   #### autocomplete queries
   def from_field
     q = params[:term]
@@ -31,38 +25,53 @@ class SearchController < ApplicationController
   #### messages search query
   def search_results
     
-    @from_address = params[:from_address]
-    @to_address = params[:to_address]      
-    @date = params[:datepicker]
-    @keywords = params[:keywords]
+    from_address = params[:from_address]
+    to_address = params[:to_address]      
+    date = params[:datepicker]
+    keywords = params[:keywords]
+    @terms = []
     
     q = {}
     messages = []
+    text_search = false
     
     # assemble query hash
-    unless @from_address.blank?
-      q['From'] = @from_address
+    unless from_address.blank?
+      #q['From'] = from_address
+      q['headers.From'] = from_address
+      @terms << from_address
     end
         
-    unless @to_address.blank?
-      q['To'] = [@to_address]
+    unless to_address.blank?
+      #q['To'] = [to_address]
+      q['headers.To'] = [to_address]
+      @terms << to_address
     end
     
-    unless @date.blank?
-      start_date = Time.parse(@date)
+    unless date.blank?
+      start_date = Time.parse(date)
       end_date = start_date + 1.day
           
       date_comp = {}
       date_comp['$gte'] = start_date
       date_comp['$lt'] = end_date
-      q['Date'] = date_comp
+      #q['Date'] = date_comp
+      q['headers.Date'] = date_comp
+      @terms << date
     end
     
-    unless @keywords.blank?
-      q['$text'] = {'$search' => @keywords}
+    unless keywords.blank?
+      text_search = true
+      q['$text'] = {'$search' => keywords}
+      @keyword_array = keywords.split(' ')
+      @terms << keywords
     end
-            
-    messages = Message.where(q).to_a unless q.length == 0
+    
+    unless q.length == 0 # disallow blank searches which would return everything
+      # arbitrary limit of 1000 results on text searches, just so we don't get bogged down
+      # on very common terms
+      text_search ? messages = Message.where(q).limit(1000).to_a : messages = Message.where(q).to_a
+    end
     
     # redirect_to root_path if q.length == 0   
        

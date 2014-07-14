@@ -1,8 +1,8 @@
 .headline
-	|Enron email sampler
+	|Enron email browser
 
 p 
-| This app allows users to view and, in a limited way, search a subset of the Enron email collection which first appeared online in 2003 (details can be found 
+| This app allows users to view and search a subset of the Enron email collection which first appeared online in 2003 (details can be found 
 = link_to "here", "http://www.ferc.gov/industries/electric/indus-act/wec/enron/info-release.asp"
 nbsp
 | ).  This app is strictly for my own personal practice and edification.  No warranties are given, implied, etc.
@@ -40,6 +40,9 @@ table cellpadding=5
 			td
 				.ui-widget
 					= text_field_tag :datepicker, "", size: 35, maxlength: 40
+			td
+				i 
+					| (format: "YYYY-MM-DD", or use date picker)
 
 
 		tr	
