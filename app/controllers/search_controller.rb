@@ -37,14 +37,14 @@ class SearchController < ApplicationController
     
     # assemble query hash
     unless from_address.blank?
-      #q['From'] = from_address
-      q['headers.From'] = from_address
+      q['From'] = from_address
+      #q['headers.From'] = from_address
       @terms << from_address
     end
         
     unless to_address.blank?
-      #q['To'] = [to_address]
-      q['headers.To'] = [to_address]
+      q['To'] = [to_address]
+      #q['headers.To'] = [to_address]
       @terms << to_address
     end
     
@@ -55,8 +55,8 @@ class SearchController < ApplicationController
       date_comp = {}
       date_comp['$gte'] = start_date
       date_comp['$lt'] = end_date
-      #q['Date'] = date_comp
-      q['headers.Date'] = date_comp
+      q['Date'] = date_comp
+      #q['headers.Date'] = date_comp
       @terms << date
     end
     
@@ -93,3 +93,9 @@ class SearchController < ApplicationController
   end
 
 end
+
+ # highlight keywords, if any
+ # - @keyword_array.each do |k|
+ #    - match = body.match(/#{k}/i)
+ #    - highlight = "<div class='highlighted'>#{match}</div>"
+ #    - body.sub!(/#{match}/, highlight)

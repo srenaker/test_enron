@@ -23,6 +23,7 @@ li {
 .headline {
 	font-size: 38pt;
 	font-family: courier;
+	display: inline;
 }
 
 .subj_index, .page_nav, .contact a {

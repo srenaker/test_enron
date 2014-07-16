@@ -4,7 +4,7 @@ defaults: &defaults
 
 development:
   <<: *defaults
-  database: enron
+  database: enron2
 
 test:
   <<: *defaults

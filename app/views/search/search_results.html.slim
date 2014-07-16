@@ -29,36 +29,32 @@ p
 
 	- @results.each_with_index do |s, i|
 		li 
-			- s['headers']['Subject'].blank? ? subj = '(none)' : subj = s['headers']['Subject']
+			- s['Subject'].blank? ? subj = '(none)' : subj = s['Subject']
 			=link_to subj, "#message#{i}", :class => 'subj_index'
 
 p
 - @results.each_with_index do |m, i|
-	/! - body = m['Body'].sub(/\\n/, '<br>')
-	- body = m['body'].sub(/\\n/, '<br>')
+	- body = m['Body'].sub(/\\n/, '<br>')
 	
-	
-	/! highlight keywords, if any
-
 	p
 		pre
 			.message
 				a name="message#{i}"
 					
 				b To: 
-				| #{m['headers']['To']}
+				| #{m['To']}
 				br
 				b From: 
-				| #{m['headers']['From']}
+				| #{m['From']}
 				br
 				b Date: 
-				| #{m['headers']['Date']}
+				| #{m['Date']}
 				br
 				b Subject: 
-				| #{m['headers']['Subject']}
+				| #{m['Subject']}
 				p
 				
-				| #{body}
+				| #{body.html_safe}
 	
 	=link_to "Back to top", "#top", :class => 'page_nav'
 	.spacer
