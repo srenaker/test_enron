@@ -2,13 +2,46 @@ a name="top"
 = link_to "New search", root_path
 
 p
+- if @show_stats == "On"
+	| Stats for 
+	b #{@addr}:
+	table cellpadding=4
+		tr
+			td
+				| Total messages sent: 
+			td 
+				| #{@tot_sent}
+		tr
+			td
+				| Total messages received: 
+			td
+				| #{@tot_received}
+	
+		/! edge case -- some To: fields are blank
+		- if @from_stats && (@from_stats["_id"].length > 0) 
+			tr
+				td
+					| Most frequently sent: from_stats = #{@from_stats}
+				td	
+					| #{@from_stats["tot"]} to 
+					= link_to @from_stats["_id"].first, search_search_results_path(:from_address => @addr, 
+																					:to_address => @from_stats["_id"].first)
 
-| Terms: 
+		- if @to_stats
+			tr
+				td
+					| Most frequently received: 
+				td
+					| #{@to_stats["tot"]} from 
+					= link_to @to_stats["_id"], search_search_results_path(:to_address => @addr,
+																			:from_address => @to_stats["_id"])
+p	
+
+| Search terms: 
 - @terms.each do |t|
 	|  #{t}  
 
 p	
-	
 - if @results.length == 0
 	| No messages found.
 
@@ -25,7 +58,7 @@ p
 
 	p
 
-	| Subject index for this page:
+	| Subject index:
 
 	- @results.each_with_index do |s, i|
 		li 

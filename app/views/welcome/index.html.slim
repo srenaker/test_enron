@@ -2,17 +2,18 @@
 	|Enron email browser
 	= image_tag 'email_icon.png'
 
-p 
-| This app allows users to view and search a subset of the Enron email collection which first appeared online in 2003 (details can be found 
-= link_to "here", "http://www.ferc.gov/industries/electric/indus-act/wec/enron/info-release.asp"
-nbsp
-| ).  This app is strictly for my own personal practice and edification.  No warranties are given, implied, etc.
+.intro
+	p 
+	| This app allows users to view and search a subset of the Enron email collection which first appeared online in 2003 (details can be found 
+	= link_to "here", "http://www.ferc.gov/industries/electric/indus-act/wec/enron/info-release.asp"
+	nbsp
+	| ).  This app is strictly for my own personal practice and edification.  No warranties are given, implied, etc.
 
-p
+	p
 
-| This subset contains 517,424 of the original messages, with no attachments. I downloaded the archive from 
-= link_to "here", "http://www.cs.cmu.edu/~./enron/" 
-|, parsed the messages and loaded them into a MongoDB collection.
+	| This subset contains 517,424 of the original messages, with no attachments. I downloaded the archive from 
+	= link_to "here", "http://www.cs.cmu.edu/~./enron/" 
+	|, parsed the messages and loaded them into a MongoDB collection.
 
 p
 
@@ -29,7 +30,14 @@ table cellpadding=5
 			td
 				.ui-widget
 					= text_field_tag :to_address, "", size: 35, maxlength: 40
-
+					
+			td		
+				.show_stats
+					| Show user stats: 
+					= radio_button_tag :show_stats, "On"
+					| On
+					= radio_button_tag :show_stats, "Off", :checked => true
+					| Off
 		tr
 			td From: 
 			td

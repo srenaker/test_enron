@@ -9,6 +9,8 @@
 
 <script>
 	 $(function() {		
+		$(".show_stats").hide();
+		
 		$( "#from_address" ).autocomplete({
 			source: "/search/from_field",
 			minLength: 3
@@ -16,13 +18,16 @@
 	
 		$( "#to_address" ).autocomplete({
 			source: "/search/to_field",
-			minLength: 3
+			minLength: 3,			
+			response: function( event, ui ) {
+				$(".show_stats").show("slow");
+			}
 		});
 		
 		$( "#datepicker" ).datepicker({
-				defaultDate: new Date("2001-02-02"),
-				dateFormat: "yy-mm-dd"
-			});
+			defaultDate: new Date("2001-02-02"),
+			dateFormat: "yy-mm-dd"
+		});
 	
 	});
 	

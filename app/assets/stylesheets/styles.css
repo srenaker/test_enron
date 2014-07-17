@@ -26,7 +26,7 @@ li {
 	display: inline;
 }
 
-.subj_index, .page_nav, .contact a {
+.subj_index, .page_nav, .contact a, td a, .intro a {
 	text-decoration: none;
 	color: darkblue;
 }
@@ -53,4 +53,9 @@ a:hover {
 .highlighted {
 	display: inline;
 	color: red;
+}
+
+.show_stats, .show_stats input {
+	margin-left: 7px;
+	display: inline;
 }

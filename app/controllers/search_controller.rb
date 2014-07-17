@@ -1,9 +1,29 @@
 class SearchController < ApplicationController
   
+  require "mongo"
+  require "uri"
+  include Mongo
+  
+  def get_connection
+    return @db_connection if @db_connection
+    if Rails.env == "development"
+      @db_connection = MongoClient.new('localhost', 27017).db('enron2')
+    elsif Rails.env == "production"
+  
+      db = URI.parse(ENV['MONGOHQ_URL'])
+      db_name = db.path.gsub(/^\//, '')
+      @db_connection = Mongo::Connection.new(db.host, db.port).db(db_name)
+      @db_connection.authenticate(db.user, db.password) unless (db.user.nil? || db.user.nil?)
+      @db_connection
+    end
+  end
+  
   #### autocomplete queries
   def from_field
+    
     q = params[:term]
     result = FromAddress.where(:_id => /^#{q}/).all
+    #result = db.collection("from_addresses").find(:_id => /^#{q}/)
     arr = {}
     result.each_with_index do |j, i|
       arr[i] = j._id
@@ -29,6 +49,7 @@ class SearchController < ApplicationController
     to_address = params[:to_address]      
     date = params[:datepicker]
     keywords = params[:keywords]
+    @show_stats = params[:show_stats]
     @terms = []
     
     q = {}
@@ -37,12 +58,14 @@ class SearchController < ApplicationController
     
     # assemble query hash
     unless from_address.blank?
+      @addr = from_address
       q['From'] = from_address
       #q['headers.From'] = from_address
       @terms << from_address
     end
         
     unless to_address.blank?
+      @addr = to_address
       q['To'] = [to_address]
       #q['headers.To'] = [to_address]
       @terms << to_address
@@ -71,6 +94,20 @@ class SearchController < ApplicationController
       # arbitrary limit of 1000 results on text searches, just so we don't get bogged down
       # on very common terms
       text_search ? messages = Message.where(q).limit(1000).to_a : messages = Message.where(q).to_a
+    end
+    
+    if @show_stats == "On"
+      @tot_sent = Message.where(:From => @addr).all.length
+      @tot_received = Message.where(:To => @addr).all.length
+      db = get_connection 
+      @to_stats = db.collection("messages").aggregate([{"$match" => {"To" => @addr}}, 
+                                                          {"$group" => {"_id" => "$From", "tot" => {"$sum" => 1}}}, 
+                                                          {"$sort" => {"tot" => -1}}, 
+                                                          {"$limit" => 1}]).first
+      @from_stats = db.collection("messages").aggregate([{"$match" => {"From" => @addr}}, 
+                                                          {"$group" => {"_id" => "$To", "tot" => {"$sum" => 1}}}, 
+                                                          {"$sort" => {"tot" => -1}}, 
+                                                          {"$limit" => 1}]).first
     end
     
     # redirect_to root_path if q.length == 0   
