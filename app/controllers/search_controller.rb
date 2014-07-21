@@ -7,7 +7,7 @@ class SearchController < ApplicationController
   def get_connection
     return @db_connection if @db_connection
     if Rails.env == "development"
-      @db_connection = MongoClient.new('localhost', 27017).db('enron2')
+      @db_connection = MongoClient.new('localhost', 27017).db('enron')
     elsif Rails.env == "production"
   
       db = URI.parse(ENV['MONGOHQ_URL'])
@@ -59,15 +59,15 @@ class SearchController < ApplicationController
     # assemble query hash
     unless from_address.blank?
       @addr = from_address
-      q['From'] = from_address
-      #q['headers.From'] = from_address
+      #q['From'] = from_address
+      q['headers.From'] = from_address
       @terms << from_address
     end
         
     unless to_address.blank?
       @addr = to_address
-      q['To'] = [to_address]
-      #q['headers.To'] = [to_address]
+      #q['To'] = [to_address]
+      q['headers.To'] = [to_address]
       @terms << to_address
     end
     
@@ -78,8 +78,8 @@ class SearchController < ApplicationController
       date_comp = {}
       date_comp['$gte'] = start_date
       date_comp['$lt'] = end_date
-      q['Date'] = date_comp
-      #q['headers.Date'] = date_comp
+      #q['Date'] = date_comp
+      q['headers.Date'] = date_comp
       @terms << date
     end
     
@@ -97,15 +97,15 @@ class SearchController < ApplicationController
     end
     
     if @show_stats == "On"
-      @tot_sent = Message.where(:From => @addr).all.length
-      @tot_received = Message.where(:To => @addr).all.length
+      @tot_sent = Message.where('headers.From' => @addr).all.length
+      @tot_received = Message.where('headers.To' => @addr).all.length
       db = get_connection 
-      @to_stats = db.collection("messages").aggregate([{"$match" => {"To" => @addr}}, 
-                                                          {"$group" => {"_id" => "$From", "tot" => {"$sum" => 1}}}, 
+      @to_stats = db.collection("messages").aggregate([{"$match" => {"headers.To" => @addr}}, 
+                                                          {"$group" => {"_id" => "$headers.From", "tot" => {"$sum" => 1}}}, 
                                                           {"$sort" => {"tot" => -1}}, 
                                                           {"$limit" => 1}]).first
-      @from_stats = db.collection("messages").aggregate([{"$match" => {"From" => @addr}}, 
-                                                          {"$group" => {"_id" => "$To", "tot" => {"$sum" => 1}}}, 
+      @from_stats = db.collection("messages").aggregate([{"$match" => {"headers.From" => @addr}}, 
+                                                          {"$group" => {"_id" => "$headers.To", "tot" => {"$sum" => 1}}}, 
                                                           {"$sort" => {"tot" => -1}}, 
                                                           {"$limit" => 1}]).first
     end

@@ -21,7 +21,7 @@ p
 		- if @from_stats && (@from_stats["_id"].length > 0) 
 			tr
 				td
-					| Most frequently sent: from_stats = #{@from_stats}
+					| Most frequently sent: 
 				td	
 					| #{@from_stats["tot"]} to 
 					= link_to @from_stats["_id"].first, search_search_results_path(:from_address => @addr, 
@@ -62,12 +62,12 @@ p
 
 	- @results.each_with_index do |s, i|
 		li 
-			- s['Subject'].blank? ? subj = '(none)' : subj = s['Subject']
+			- s['headers']['Subject'].blank? ? subj = '(none)' : subj = s['headers']['Subject']
 			=link_to subj, "#message#{i}", :class => 'subj_index'
 
 p
 - @results.each_with_index do |m, i|
-	- body = m['Body'].sub(/\\n/, '<br>')
+	- body = m['body'].sub(/\\n/, '<br>')
 	
 	p
 		pre
@@ -75,16 +75,16 @@ p
 				a name="message#{i}"
 					
 				b To: 
-				| #{m['To']}
+				| #{m['headers']['To']}
 				br
 				b From: 
-				| #{m['From']}
+				| #{m['headers']['From']}
 				br
 				b Date: 
-				| #{m['Date']}
+				| #{m['headers']['Date']}
 				br
 				b Subject: 
-				| #{m['Subject']}
+				| #{m['headers']['Subject']}
 				p
 				
 				| #{body.html_safe}
