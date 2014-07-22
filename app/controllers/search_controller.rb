@@ -20,9 +20,9 @@ class SearchController < ApplicationController
   
   #### autocomplete queries
   def from_field
-    
     q = params[:term]
-    result = FromAddress.where(:_id => /^#{q}/).all
+    rgx = Regexp.escape(q)
+    result = FromAddress.where(:_id => /^#{rgx}/).all
     #result = db.collection("from_addresses").find(:_id => /^#{q}/)
     arr = {}
     result.each_with_index do |j, i|
@@ -33,7 +33,8 @@ class SearchController < ApplicationController
   
   def to_field
     q = params[:term]
-    result = ToAddress.where(:_id => /^#{q}/).all
+    rgx = Regexp.escape(q)
+    result = ToAddress.where(:_id => /^#{rgx}/i).all
     arr = {}
     result.each_with_index do |j, i|
       arr[i] = j._id
