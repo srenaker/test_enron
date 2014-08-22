@@ -43,6 +43,7 @@ table cellpadding=5
 			td
 				.ui-widget
 					= text_field_tag :from_address, "", size: 35, maxlength: 40
+					= hidden_field_tag "type", "from_field"
 
 		tr	
 			td Date: 

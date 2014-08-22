@@ -12,12 +12,12 @@
 		$(".show_stats").hide();
 		
 		$( "#from_address" ).autocomplete({
-			source: "/search/from_field",
+			source: "/search/autocomplete?type=from_field",
 			minLength: 3
 		});
 	
 		$( "#to_address" ).autocomplete({
-			source: "/search/to_field",
+			source: "/search/autocomplete?type=to_field",
 			minLength: 3,			
 			response: function( event, ui ) {
 				$(".show_stats").show("slow");

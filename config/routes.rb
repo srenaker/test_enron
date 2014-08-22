@@ -7,8 +7,7 @@ EnronTest::Application.routes.draw do
 
   post 'search/search_results'
   get 'search/search_results'
-  get 'search/from_field'
-  get 'search/to_field'
+  get 'search/autocomplete'
   get 'search/user_stats'
   
   # Example of regular route:

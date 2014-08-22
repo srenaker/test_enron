@@ -19,22 +19,17 @@ class SearchController < ApplicationController
   end
   
   #### autocomplete queries
-  def from_field
+  def autocomplete
+    type = params[:type]
     q = params[:term]
     rgx = Regexp.escape(q)
-    result = FromAddress.where(:_id => /^#{rgx}/).all
-    #result = db.collection("from_addresses").find(:_id => /^#{q}/)
-    arr = {}
-    result.each_with_index do |j, i|
-      arr[i] = j._id
+    
+    if type == "from_field"
+      result = FromAddress.where(:_id => /^#{rgx}/).all
+    elsif type == "to_field"
+      result = ToAddress.where(:_id => /^#{rgx}/i).all
     end
-    render :json => arr
-  end
-  
-  def to_field
-    q = params[:term]
-    rgx = Regexp.escape(q)
-    result = ToAddress.where(:_id => /^#{rgx}/i).all
+    
     arr = {}
     result.each_with_index do |j, i|
       arr[i] = j._id
@@ -89,6 +84,7 @@ class SearchController < ApplicationController
     end
     
     unless q.length == 0 # disallow blank searches which would return everything
+      
       # arbitrary limit of 1000 results on text searches, just so we don't get bogged down
       # on very common terms
       text_search ? messages = Message.where(q).limit(1000).to_a : messages = Message.where(q).to_a
@@ -107,30 +103,10 @@ class SearchController < ApplicationController
                                                           {"$sort" => {"tot" => -1}}, 
                                                           {"$limit" => 1}]).first
     end
-    
-    # redirect_to root_path if q.length == 0   
-       
+          
     @num_results = messages.length
-      
-    # rudimentary deduplication of message bodies  
-    # message_bodies = []
-    #     messages.each do |m|
-    #       if message_bodies.include?(m['body'])
-    #         messages.delete(m)
-    #       else
-    #         message_bodies << m['body'] 
-    #       end
-    #     end       
-    @num_results > messages.length ? @deduped = "<p>Some duplicate messages are not displayed." : @deduped = "" 
-    
     @results = Kaminari.paginate_array(messages).page(params[:page]).per(10)
     
   end
 
 end
-
- # highlight keywords, if any
- # - @keyword_array.each do |k|
- #    - match = body.match(/#{k}/i)
- #    - highlight = "<div class='highlighted'>#{match}</div>"
- #    - body.sub!(/#{match}/, highlight)
