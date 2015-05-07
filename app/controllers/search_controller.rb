@@ -8,8 +8,7 @@ class SearchController < ApplicationController
     return @db_connection if @db_connection
     if Rails.env == "development"
       @db_connection = MongoClient.new('localhost', 27017).db('enron2')
-    elsif Rails.env == "production"
-  
+    elsif Rails.env == "production"  
       db = URI.parse(ENV['MONGOHQ_URL'])
       db_name = db.path.gsub(/^\//, '')
       @db_connection = Mongo::Connection.new(db.host, db.port).db(db_name)

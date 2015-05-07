@@ -5,8 +5,7 @@ gem 'bson_ext'
 gem 'slim'
 gem 'kaminari'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.4'
-
+gem 'rails'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'

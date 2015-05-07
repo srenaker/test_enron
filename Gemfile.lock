@@ -131,7 +131,7 @@ DEPENDENCIES
   jquery-rails
   kaminari
   mongo_mapper (~> 0.13.0.beta2)
-  rails (= 4.0.4)
+  rails
   sass-rails (~> 4.0.2)
   sdoc
   slim
