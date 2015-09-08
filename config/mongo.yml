@@ -13,4 +13,4 @@ test:
 # set these environment variables on your prod server
 production:
   #uri: <%= ENV['MONGOLAB_URI'] %>
-  uri: "mongodb://heroku_hjqswqbt:6hi06lr0jcmrc82245pbuu5oth@ds045853-a0.mongolab.com:45853"
+  uri: mongodb://heroku_hjqswqbt:6hi06lr0jcmrc82245pbuu5oth@ds045853-a0.mongolab.com:45853
