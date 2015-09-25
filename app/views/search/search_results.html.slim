@@ -10,12 +10,12 @@ p
 			td
 				| Total messages sent: 
 			td 
-				| #{@tot_sent}
+				| #{@tot_sent.to_i}
 		tr
 			td
 				| Total messages received: 
 			td
-				| #{@tot_received}
+				| #{@tot_received.to_i}
 	
 		/! edge case -- some To: fields are blank
 		- if @from_stats && (@from_stats["_id"].length > 0) 

@@ -1,23 +1,5 @@
 class SearchController < ApplicationController
   
-  require "mongo"
-  require "uri"
-  include Mongo
-  
-  def get_connection
-    return @db_connection if @db_connection
-    if Rails.env == "development"
-      @db_connection = MongoClient.new('localhost', 27017).db('enron2')
-    elsif Rails.env == "production"  
-      # uri = ENV['MONGOLAB_URI'].split(',')[0]
-      # db = URI.parse(uri)
-      # db_name = db.user
-      # @db_connection = Mongo::Connection.new(db.host, db.port).db(db_name)
-      # @db_connection.authenticate(db.user, db.password)
-      
-    end
-  end
-  
   #### autocomplete queries
   def autocomplete
     type = params[:type]
@@ -93,15 +75,15 @@ class SearchController < ApplicationController
     if @show_stats == "On"
       @tot_sent = Message.where(:From => @addr).all.length
       @tot_received = Message.where(:To => @addr).all.length
-      # db = get_connection
-#       @to_stats = db.collection("messages").aggregate([{"$match" => {"To" => @addr}},
-#                                                           {"$group" => {"_id" => "$From", "tot" => {"$sum" => 1}}},
-#                                                           {"$sort" => {"tot" => -1}},
-#                                                           {"$limit" => 1}]).first
-#       @from_stats = db.collection("messages").aggregate([{"$match" => {"From" => @addr}},
-#                                                           {"$group" => {"_id" => "$To", "tot" => {"$sum" => 1}}},
-#                                                           {"$sort" => {"tot" => -1}},
-#                                                           {"$limit" => 1}]).first
+
+      @to_stats = Message.collection.aggregate([{"$match" => {"To" => @addr}},
+                                                          {"$group" => {"_id" => "$From", "tot" => {"$sum" => 1}}},
+                                                          {"$sort" => {"tot" => -1}},
+                                                          {"$limit" => 1}]).first
+      @from_stats = Message.collection.aggregate([{"$match" => {"From" => @addr}},
+                                                          {"$group" => {"_id" => "$To", "tot" => {"$sum" => 1}}},
+                                                          {"$sort" => {"tot" => -1}},
+                                               {"$limit" => 1}]).first
     end
           
     @num_results = messages.length

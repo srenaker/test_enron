@@ -1,6 +1,6 @@
 class ToAddress
-  include MongoMapper::Document
+  include Mongoid::Document
 
-  key :to_address, String
+  field :to_address, type: String
 
 end

@@ -1,7 +1,7 @@
 class Message
-  include MongoMapper::Document
+  include Mongoid::Document
 
-  key :body, String
-  key :headers, Hash
+  field :body, type: String
+  field :headers, type: Hash
 
 end

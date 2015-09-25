@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'mongo_mapper', '~> 0.13.0.beta2'
+gem 'mongoid', github: "mongoid/mongoid"
 gem 'bson_ext'
 gem 'slim'
 gem 'kaminari'
