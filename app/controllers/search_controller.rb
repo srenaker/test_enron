@@ -43,7 +43,7 @@ class SearchController < ApplicationController
         
     unless to_address.blank?
       @addr = to_address
-      q['To'] = [to_address]
+      q['To'] = to_address
       @terms << to_address
     end
     
@@ -66,7 +66,6 @@ class SearchController < ApplicationController
     end
     
     unless q.length == 0 # disallow blank searches which would return everything
-      
       # arbitrary limit of 1000 results on text searches, just so we don't get bogged down
       # on very common terms
       text_search ? messages = Message.where(q).limit(1000).to_a : messages = Message.where(q).to_a
