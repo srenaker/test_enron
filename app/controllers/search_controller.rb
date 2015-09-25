@@ -9,8 +9,7 @@ class SearchController < ApplicationController
     if Rails.env == "development"
       @db_connection = MongoClient.new('localhost', 27017).db('enron2')
     elsif Rails.env == "production"  
-      #uri = ENV['MONGOLAB_URI'].split(',')[0]
-      uri = "mongodb://heroku_hjqswqbt:6hi06lr0jcmrc82245pbuu5oth@ds045853-a0.mongolab.com:45853"
+      uri = ENV['MONGOLAB_URI'].split(',')[0]
       puts "\n\nuri: #{uri}\n\n"
       db = URI.parse(uri)
       db_name = db.path.gsub(/^\//, '')
