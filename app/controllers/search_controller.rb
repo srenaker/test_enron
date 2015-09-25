@@ -14,9 +14,7 @@ class SearchController < ApplicationController
       # db_name = db.user
       # @db_connection = Mongo::Connection.new(db.host, db.port).db(db_name)
       # @db_connection.authenticate(db.user, db.password)
-      @db_connection = Mongo::Connection.new("ds045853-a0.mongolab.com", 45853).db("heroku_hjqswqbt")
-      @db_connection.authenticate("heroku_hjqswqbt", "6hi06lr0jcmrc82245pbuu5oth")
-      @db_connection
+      
     end
   end
   
@@ -95,15 +93,15 @@ class SearchController < ApplicationController
     if @show_stats == "On"
       @tot_sent = Message.where(:From => @addr).all.length
       @tot_received = Message.where(:To => @addr).all.length
-      db = get_connection 
-      @to_stats = db.collection("messages").aggregate([{"$match" => {"To" => @addr}}, 
-                                                          {"$group" => {"_id" => "$From", "tot" => {"$sum" => 1}}}, 
-                                                          {"$sort" => {"tot" => -1}}, 
-                                                          {"$limit" => 1}]).first
-      @from_stats = db.collection("messages").aggregate([{"$match" => {"From" => @addr}}, 
-                                                          {"$group" => {"_id" => "$To", "tot" => {"$sum" => 1}}}, 
-                                                          {"$sort" => {"tot" => -1}}, 
-                                                          {"$limit" => 1}]).first
+      # db = get_connection
+#       @to_stats = db.collection("messages").aggregate([{"$match" => {"To" => @addr}},
+#                                                           {"$group" => {"_id" => "$From", "tot" => {"$sum" => 1}}},
+#                                                           {"$sort" => {"tot" => -1}},
+#                                                           {"$limit" => 1}]).first
+#       @from_stats = db.collection("messages").aggregate([{"$match" => {"From" => @addr}},
+#                                                           {"$group" => {"_id" => "$To", "tot" => {"$sum" => 1}}},
+#                                                           {"$sort" => {"tot" => -1}},
+#                                                           {"$limit" => 1}]).first
     end
           
     @num_results = messages.length

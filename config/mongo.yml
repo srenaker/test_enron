@@ -10,5 +10,3 @@ test:
   <<: *defaults
   database: enron_test
 
-production:	
-  uri: <%= ENV['MONGOLAB_URI'].split(',')[0] %>
