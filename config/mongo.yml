@@ -11,4 +11,4 @@ test:
   database: enron_test
 
 production:	
-  uri: <%= ENV['MONGOLAB_URI'].split(',')[0] %>
+  uri: <%= ENV['MONGOLAB_URI'] %>
