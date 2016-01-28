@@ -7,9 +7,9 @@ class SearchController < ApplicationController
     rgx = Regexp.escape(q)
     
     if type == "from_field"
-      result = FromAddress.where(:_id => /^#{rgx}/).all
+      result = FromAddress.where(_id: /^#{rgx}/).all
     elsif type == "to_field"
-      result = ToAddress.where(:_id => /^#{rgx}/i).all
+      result = ToAddress.where(_id: /^#{rgx}/i).all
     end
     
     arr = {}
@@ -69,11 +69,13 @@ class SearchController < ApplicationController
       # arbitrary limit of 1000 results on text searches, just so we don't get bogged down
       # on very common terms
       text_search ? messages = Message.where(q).limit(1000).to_a : messages = Message.where(q).to_a
+
+      @qstring = q
     end
     
     if @show_stats == "On"
-      @tot_sent = Message.where(:From => @addr).all.length
-      @tot_received = Message.where(:To => @addr).all.length
+      @tot_sent = Message.where(From: @addr).all.length
+      @tot_received = Message.where(To: @addr).all.length
 
       @to_stats = Message.collection.aggregate([{"$match" => {"To" => @addr}},
                                                           {"$group" => {"_id" => "$From", "tot" => {"$sum" => 1}}},

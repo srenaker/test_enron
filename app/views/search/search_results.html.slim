@@ -2,6 +2,7 @@ a name="top"
 = link_to "New search", root_path
 
 p
+
 - if @show_stats == "On"
 	| Stats for 
 	b #{@addr}:
@@ -24,8 +25,8 @@ p
 					| Most frequently sent: 
 				td	
 					| #{@from_stats["tot"]} to 
-					= link_to @from_stats["_id"].first, search_search_results_path(:from_address => @addr, 
-																					:to_address => @from_stats["_id"].first)
+					= link_to @from_stats["_id"].first, search_search_results_path(from_address: @addr, 
+																					to_address:  @from_stats["_id"].first)
 
 		- if @to_stats
 			tr
@@ -33,8 +34,8 @@ p
 					| Most frequently received: 
 				td
 					| #{@to_stats["tot"]} from 
-					= link_to @to_stats["_id"], search_search_results_path(:to_address => @addr,
-																			:from_address => @to_stats["_id"])
+					= link_to @to_stats["_id"], search_search_results_path(to_address: @addr,
+																			from_address: @to_stats["_id"])
 p	
 
 | Search terms: 
@@ -62,7 +63,7 @@ p
 	- @results.each_with_index do |s, i|
 		li 
 			- s['Subject'].blank? ? subj = '(none)' : subj = s['Subject']
-			=link_to subj, "#message#{i}", :class => 'subj_index'
+			=link_to subj, "#message#{i}", class: 'subj_index'
 
 p
 - @results.each_with_index do |m, i|
@@ -88,10 +89,10 @@ p
 				
 				| #{body.html_safe}
 	
-	=link_to "Back to top", "#top", :class => 'page_nav'
+	=link_to "Back to top", "#top", class: 'page_nav'
 	.spacer
 	 	| | 
-	=link_to "New search", root_path, :class => 'page_nav'
+	=link_to "New search", root_path, class: 'page_nav'
 	p
 	hr
 	br

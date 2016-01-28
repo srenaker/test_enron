@@ -1,3 +1,17 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
 /*! jQuery UI - v1.11.4 - 2016-01-28
 * http://jqueryui.com
 * Includes: core.css, autocomplete.css, button.css, datepicker.css, menu.css, theme.css
@@ -6,6 +20,7 @@
 
 /* Layout helpers
 ----------------------------------*/
+
 .ui-helper-hidden {
 	display: none;
 }
@@ -566,27 +581,27 @@ button.ui-button::-moz-focus-inner {
 }
 .ui-icon,
 .ui-widget-content .ui-icon {
-	background-image: url("/assets/ui-icons_444444_256x240.png");
+	background-image: url("images/ui-icons_444444_256x240.png");
 }
 .ui-widget-header .ui-icon {
-	background-image: url("/assets/ui-icons_444444_256x240.png");
+	background-image: url("images/ui-icons_444444_256x240.png");
 }
 .ui-state-default .ui-icon {
-	background-image: url("/assets/ui-icons_777777_256x240.png");
+	background-image: url("images/ui-icons_777777_256x240.png");
 }
 .ui-state-hover .ui-icon,
 .ui-state-focus .ui-icon {
-	background-image: url("/assets/ui-icons_555555_256x240.png");
+	background-image: url("images/ui-icons_555555_256x240.png");
 }
 .ui-state-active .ui-icon {
-	background-image: url("/assets/ui-icons_ffffff_256x240.png");
+	background-image: url("images/ui-icons_ffffff_256x240.png");
 }
 .ui-state-highlight .ui-icon {
-	background-image: url("/assets/ui-icons_777620_256x240.png");
+	background-image: url("images/ui-icons_777620_256x240.png");
 }
 .ui-state-error .ui-icon,
 .ui-state-error-text .ui-icon {
-	background-image: url("/assets/ui-icons_cc0000_256x240.png");
+	background-image: url("images/ui-icons_cc0000_256x240.png");
 }
 
 /* positioning */
@@ -810,4 +825,65 @@ button.ui-button::-moz-focus-inner {
 	opacity: .3;
 	filter: Alpha(Opacity=30); /* support: IE8 */
 	border-radius: 8px;
+}
+body {
+	margin: 30px;
+	max-width: 80%;
+	font-family: avenir, helvetica;
+}
+
+pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+li {
+	padding: 3px;
+}
+
+.message {
+	width: 80%;
+}
+
+.headline {
+	font-size: 38pt;
+	font-family: courier;
+	display: inline;
+}
+
+.subj_index, .page_nav, .contact a, td a, .intro a {
+	text-decoration: none;
+	color: darkblue;
+}
+
+a, a:visited {
+	color: darkblue;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.spacer {
+	margin-left: 10px;
+	margin-right: 10px;
+	display: inline;
+}
+
+.contact {
+	padding-top: 15px;
+	font-size: 11pt;
+}
+
+.highlighted {
+	display: inline;
+	color: red;
+}
+
+.show_stats, .show_stats input {
+	margin-left: 7px;
+	display: inline;
 }
